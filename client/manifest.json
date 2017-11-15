@@ -15,6 +15,7 @@
 		"bin-debug/Main.js",
 		"bin-debug/RoleWheel.js",
 		"bin-debug/ThemeAdapter.js",
+		"bin-debug/Items/Rocker.js",
 		"bin-debug/Views/GameEndPanel.js",
 		"bin-debug/Views/GamePlayingPanel.js",
 		"bin-debug/Views/GameStartPanel.js",

@@ -112,8 +112,12 @@ var Main = (function (_super) {
         }
     };
     Main.prototype.createScene = function () {
+        var rocker = new Rocker();
+        this.addChild(rocker);
+        rocker.x = 0;
+        rocker.y = this.stage.stageHeight - rocker.height;
         if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
-            this.startCreateScene();
+            //this.startCreateScene();
         }
     };
     /**
@@ -151,6 +155,8 @@ var Main = (function (_super) {
         //启用场景控制器
         var viewManager = new ViewManager();
         this.addChild(viewManager);
+        var rocker = new Rocker();
+        this.addChild(rocker);
         viewManager.start();
         //开启自定义event
     };

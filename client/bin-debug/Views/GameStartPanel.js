@@ -33,7 +33,7 @@ var GameStartPanel = (function (_super) {
         this.startBtn.size = 36;
         this.startBtn.textColor = 0xFBCE10;
         this.addChild(this.startBtn);
-        this.startBtn.x = this.stage.width * 0.5;
+        this.startBtn.x = 1;
         this.startBtn.y = this.stage.height * 0.5;
     };
     GameStartPanel.prototype.onTouchTab = function (e) {
