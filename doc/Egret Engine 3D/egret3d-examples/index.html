@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=0.5, minimum-scale=0.5, maximum-scale=1.0">
+    <title>Egret 3D</title>
+    <style>
+        body {
+            -ms-user-select: none;
+            -webkit-user-select: none;
+        }
+    </style>
+    <script src="lib/Reflect.js"></script>
+    <script src="lib/egret3d.js"></script>
+    <script src="bin/app.js"></script>
+</head>
+
+<body style="border: 0px; padding: 0px; margin: 0px; overflow:hidden; -ms-user-select: none; -webkit-user-select: none; user-select: none">
+    <div id="drawarea" style="position:absolute;height:100%;width:100%;"></div>
+</body>
+
+<select id="examples_menu" style="width:200px;font-size:24px;position:absolute;z-index:2;top:50px;" onchange="onSelectChange(this.value)"></select>
+
+<script>
+    window.onload = function () {
+        var app = new egret3d.framework.Application();
+        var div = document.getElementById("drawarea");
+        app.start(div);
+        app.showFps();
+        app.bePlay = true;
+        app.addUserCode(getCurrentTest());
+    }
+
+    // auto load
+
+    var list = [
+        "Mesh",
+        "Cube",
+        "CubeWithTexture",
+        "LoadScene",
+        "ParticleEffect",
+        "SkinnedMesh",
+        "PickTest"
+    ];
+
+    var menu = document.getElementById("examples_menu");
+
+    list.forEach(function (item) {
+        var option = document.createElement("option");
+        option.setAttribute("id", item);
+        option.setAttribute("value", item);
+        option.innerText = item;
+        menu.appendChild(option);
+    });
+
+    var test = getCurrentTest()
+    menu.value = test;
+    document.title = "Egret 3D|" + test;
+
+    function onSelectChange(value) {
+        var url = location.href;
+        var index = url.indexOf("?");
+        if (index != -1) {
+            url = url.slice(0, index);
+        }
+        if (url.indexOf(".html") == -1) {
+            url += "index.html";
+        }
+        url += "?example=" + value;
+        location.href = url;
+    }
+
+    function getCurrentTest() {
+        var appFile;
+        var hasTest = false;
+        var str = location.search;
+        str = str.slice(1, str.length);
+        var totalArray = str.split("&");
+        for (var i = 0; i < totalArray.length; i++) {
+            var itemArray = totalArray[i].split("=");
+            if (itemArray.length == 2) {
+                var key = itemArray[0];
+                var value = itemArray[1];
+                if (key == "example") {
+                    appFile = value;
+                    hasTest = true;
+                    break;
+                }
+            }
+        }
+        if (!hasTest) {
+            appFile = "Mesh";
+        }
+
+        return appFile;
+    }
+</script>
+
+</html>

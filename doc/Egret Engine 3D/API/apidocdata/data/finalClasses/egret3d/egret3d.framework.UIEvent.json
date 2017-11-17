@@ -1,0 +1,49 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "Function[]",
+			"name": "funcs",
+			"memberof": "egret3d.framework.UIEvent",
+			"scope": "instance",
+			"default": "[]"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "addListener",
+			"memberof": "egret3d.framework.UIEvent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "func",
+					"type": "Function",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "clear",
+			"memberof": "egret3d.framework.UIEvent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "excute",
+			"memberof": "egret3d.framework.UIEvent",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UIEvent",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\event2d.ts",
+		"description": "ui事件",
+		"version": "egret3d 1.0"
+	}
+}

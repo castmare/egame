@@ -1,0 +1,156 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "atlas",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "所属图集",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Border",
+			"name": "border",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "边距",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "是否为默认资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Rect",
+			"name": "rect",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "有效区域",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "texture",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "获取当前texture",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "urange",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "uv的u范围",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "vrange",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "uv的v范围",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Sprite",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "assetName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "disposeNow",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Sprite",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Sprite",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\sprite.ts",
+		"description": "sprite资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

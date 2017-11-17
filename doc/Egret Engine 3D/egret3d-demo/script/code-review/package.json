@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "devDependencies": {
+    "@types/fs-extra-promise": "^1.0.2",
+    "@types/node": "^8.0.9",
+    "fs-extra-promise": "^1.0.1",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "egret-node-utils": "0.0.7",
+    "strip-bom": "^3.0.0"
+  }
+}

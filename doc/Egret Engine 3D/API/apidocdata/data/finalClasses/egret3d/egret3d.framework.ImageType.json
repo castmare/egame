@@ -1,0 +1,47 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Filled",
+			"memberof": "egret3d.framework.ImageType",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Simple",
+			"memberof": "egret3d.framework.ImageType",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Sliced",
+			"memberof": "egret3d.framework.ImageType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Tiled",
+			"memberof": "egret3d.framework.ImageType",
+			"scope": "static",
+			"default": "2"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "ImageType",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\image.ts",
+		"description": "贴图的显示方式",
+		"version": "egret3d 1.0"
+	}
+}

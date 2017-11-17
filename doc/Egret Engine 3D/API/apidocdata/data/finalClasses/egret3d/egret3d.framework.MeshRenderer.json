@@ -1,0 +1,117 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.RenderLayerEnum",
+			"name": "layer",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"description": "场景渲染层级（common、transparent、overlay）",
+			"version": "egret3d 1.0",
+			"default": "RenderLayerEnum.Common"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Material[]",
+			"name": "materials",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"description": "mesh的材质数组",
+			"version": "egret3d 1.0",
+			"default": "[]"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "queue",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"description": "返回此组件的场景渲染层级排序依据queue大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "renderLayer",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"description": "渲染mask层级（和相机相对应）",
+			"version": "egret3d 1.0",
+			"default": "CullingMask.default"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MeshRenderer",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": ""
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				},
+				{
+					"name": "camera",
+					"type": "egret3d.framework.Camera",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.MeshRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MeshRenderer",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\meshrenderer.ts",
+		"description": "mesh的渲染组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRenderer"
+			}
+		]
+	}
+}

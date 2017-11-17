@@ -1,0 +1,21 @@
+{
+  "layer": "transparent",
+  "queue": 0,
+  "properties": [
+        "_TintColor ('Tint Color', Color) = (0.5,0.5,0.5,0.5)"
+    ],
+  "passes": {
+    "base": [
+      {
+        "blendmode": "add",
+        "showface": "all",
+        "zwrite": "off",
+        "vs": "particles_transparent",
+        "fs": "particles_transparent"
+      }
+    ],
+    "shadowgen": [],
+    "bone": [],
+    "shadowuse": []
+  }
+}

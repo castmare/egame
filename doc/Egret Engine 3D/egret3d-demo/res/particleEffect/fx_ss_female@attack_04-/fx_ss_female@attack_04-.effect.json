@@ -1,0 +1,171 @@
+{
+    "life": 60,
+    "elements": [
+      {
+        "name": "qilang",
+        "type": "singlemesh",
+        "timeline": [
+          {
+            "frame": -1,
+            "attrs": {
+              "pos": {
+                "x": 0,
+                "y": 0,
+                "z": -1
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 2,
+                "y": 2,
+                "z": 5
+              },
+              "alpha": 0.5,
+              "tilling": {
+                "x": 8, 
+                "y": 1
+              },
+              "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "mesh": "qilang.mesh.bin",
+              "mat": {
+                "shader": "particles_additive.shader.json",
+                "diffuseTexture": "E_noise_uv02.png"
+              }
+            }
+          },
+          {
+            "frame": 0,
+            "actions": [
+              {
+                "action": "linear",
+                "end": 900,
+                "param": {
+                  "name": "uv",
+                  "value": {
+                    "u": 0,
+                    "v": -0.04
+                  }
+                }
+              }
+            ]
+          },
+           {
+                    "frame": 0,
+                    "attrs": {
+                        "euler": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "lerp": [
+                        {
+                            "type": "linear",
+                            "to": 30,
+                            "attribute": {
+                                "euler": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -360
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "frame": 30,
+                    "actions": [
+                        {
+                            "action": "loop",
+                            "param": {}
+                        }
+                    ]
+                }
+            ]
+      },
+     
+      {
+        "name": "jian",
+        "type": "singlemesh",
+        "timeline": [
+          {
+            "frame": -1,
+            "attrs": {
+              "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 22,
+                "y": 22,
+                "z": 15
+              },
+              "alpha": 1,
+              "uv": {
+                "u": 1,
+                "v": 1
+              },
+              "color": {
+                "x": 1,
+                "y": 1,
+                "z": 0.5
+              },
+
+              "mesh": "gj.mesh.bin",
+              "mat": {
+                "shader": "particles_additive.shader.json",
+                "diffuseTexture": "GJ1.png"
+              }
+            }
+          },
+           {
+                    "frame": 0,
+                    "attrs": {
+                        "euler": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "lerp": [
+                        {
+                            "type": "linear",
+                            "to": 30,
+                            "attribute": {
+                                "euler": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -360
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "frame": 30,
+                    "actions": [
+                        {
+                            "action": "loop",
+                            "param": {}
+                        }
+                    ]
+                }
+        ]
+      }
+     
+         
+    ]
+}

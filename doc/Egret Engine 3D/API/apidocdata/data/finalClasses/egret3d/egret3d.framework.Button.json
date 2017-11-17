@@ -1,0 +1,85 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "fadeDuration",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "颜色淡出持续时间",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "normalColor",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "正常的显示颜色",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.UIEvent",
+			"name": "onClick",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "点击事件",
+			"version": "egret3d 1.0",
+			"default": "new UIEvent()"
+		},
+		{
+			"kind": "member",
+			"name": "pressedColor",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "按下后的颜色",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "pressedGraphic",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "按下时要显示的sprite",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "targetImage",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "默认显示图像",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform2D",
+			"name": "transform",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"name": "transition",
+			"memberof": "egret3d.framework.Button",
+			"scope": "instance",
+			"description": "按钮变换类型",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Button",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\button.ts",
+		"description": "2d按钮组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRectRenderer"
+			}
+		]
+	}
+}

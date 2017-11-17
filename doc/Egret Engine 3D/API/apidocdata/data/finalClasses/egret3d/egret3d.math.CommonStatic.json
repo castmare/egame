@@ -1,0 +1,37 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "x_axis",
+			"memberof": "egret3d.math.CommonStatic",
+			"scope": "static",
+			"default": "new egret3d.math.Vector3(1, 0, 0)"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "y_axis",
+			"memberof": "egret3d.math.CommonStatic",
+			"scope": "static",
+			"default": "new egret3d.math.Vector3(0, 1, 0)"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "z_axis",
+			"memberof": "egret3d.math.CommonStatic",
+			"scope": "static",
+			"default": "new egret3d.math.Vector3(0, 0, 1)"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CommonStatic",
+		"memberof": "egret3d.math",
+		"filename": "framework\\math\\number.ts"
+	}
+}

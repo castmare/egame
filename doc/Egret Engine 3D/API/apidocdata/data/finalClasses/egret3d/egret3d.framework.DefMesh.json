@@ -1,0 +1,26 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "initDefaultMesh",
+			"memberof": "egret3d.framework.DefMesh",
+			"scope": "static",
+			"params": [
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DefMesh",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\default\\defmesh.ts"
+	}
+}

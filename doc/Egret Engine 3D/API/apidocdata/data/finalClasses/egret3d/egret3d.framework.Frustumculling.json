@@ -1,0 +1,67 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Frustumculling",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "clone",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "remove",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Frustumculling",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Frustumculling",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\frustumculling.ts",
+		"description": "视锥剔除组件，作为标记存在",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			}
+		]
+	}
+}

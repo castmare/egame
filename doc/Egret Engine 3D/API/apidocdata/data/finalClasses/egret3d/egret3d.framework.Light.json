@@ -1,0 +1,58 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Light",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.LightTypeEnum",
+			"name": "type",
+			"memberof": "egret3d.framework.Light",
+			"scope": "instance",
+			"description": "光源类型",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Light",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Light",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Light",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\light.ts",
+		"description": "灯光组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "layer": "transparent",
+  "queue": 0,
+  "passes": {
+    "base": [
+      {
+        "blendmode": "add",
+        "showface": "all",
+        "zwrite": "on",
+        "vs": "particles_transparent",
+        "fs": "particles_transparent"
+      }
+    ],
+    "shadowgen": [],
+    "bone": [],
+    "shadowuse": []
+  }
+}

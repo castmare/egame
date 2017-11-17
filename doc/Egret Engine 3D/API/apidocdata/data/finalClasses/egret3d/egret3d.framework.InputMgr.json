@@ -1,0 +1,53 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "{[id:number]:boolean}",
+			"name": "keyboardMap",
+			"memberof": "egret3d.framework.InputMgr",
+			"scope": "instance",
+			"default": "{}"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Pointinfo",
+			"name": "point",
+			"memberof": "egret3d.framework.InputMgr",
+			"scope": "instance",
+			"default": "new Pointinfo()"
+		},
+		{
+			"kind": "member",
+			"type": "{[id:number]:egret3d.framework.Pointinfo}",
+			"name": "touches",
+			"memberof": "egret3d.framework.InputMgr",
+			"scope": "instance",
+			"default": "{}"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "InputMgr",
+			"memberof": "egret3d.framework.InputMgr",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "InputMgr",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\input\\inputmgr.ts",
+		"description": "键盘、鼠标(触屏)事件管理类 应用状态机区分状态",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "colliderVisible",
+			"memberof": "egret3d.framework.Meshcollider",
+			"scope": "instance",
+			"description": "碰撞体的可见性",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Meshcollider",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Meshcollider",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Meshcollider",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Meshcollider",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\meshcollider.ts",
+		"description": "碰撞组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			},
+			{
+				"name": "egret3d.framework.ICollider"
+			}
+		]
+	}
+}

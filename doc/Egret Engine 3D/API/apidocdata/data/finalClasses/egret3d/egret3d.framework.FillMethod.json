@@ -1,0 +1,55 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Horizontal",
+			"memberof": "egret3d.framework.FillMethod",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Radial_180",
+			"memberof": "egret3d.framework.FillMethod",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Radial_360",
+			"memberof": "egret3d.framework.FillMethod",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Radial_90",
+			"memberof": "egret3d.framework.FillMethod",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Vertical",
+			"memberof": "egret3d.framework.FillMethod",
+			"scope": "static",
+			"default": "1"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "FillMethod",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\image.ts",
+		"description": "更新瓦片数据。这里只是没有border的瓦片。如果有border就要复杂很多",
+		"version": "egret3d 1.0"
+	}
+}

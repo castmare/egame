@@ -1,0 +1,361 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "CullingMask",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "相机的渲染层级",
+			"version": "egret3d 1.0",
+			"default": "CullingMask.default | CullingMask.ui"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Color",
+			"name": "backgroundColor",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "背景色",
+			"version": "egret3d 1.0",
+			"default": "new egret3d.math.Color(0.5, 0.8, 1, 1)"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "clearOption_Color",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "是否清除颜色缓冲区",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "clearOption_Depth",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "是否清除深度缓冲区",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "far",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "相机到远裁剪面距离",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "fov",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "透视投影的fov",
+			"version": "egret3d 1.0",
+			"default": "Math.PI * 0.25"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isMainCamera",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "是否为主相机",
+			"version": "egret3d 1.0",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "near",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "相机到近裁剪面距离",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "opvalue",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "0=正交， 1=透视 中间值可以在两种相机间过度",
+			"version": "egret3d 1.0",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "order",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "camera 渲染排序标记",
+			"version": "egret3d 1.0",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.render.GlRenderTarget",
+			"name": "renderTarget",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "渲染目标",
+			"version": "egret3d 1.0",
+			"default": "null"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "size",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "正交投影的竖向size",
+			"version": "egret3d 1.0",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Rect",
+			"name": "viewport",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "相机视窗",
+			"version": "egret3d 1.0",
+			"default": "new egret3d.math.Rect(0, 0, 1, 1)"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "addOverLay",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "添加2d渲染组件",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "overLay",
+					"type": "egret3d.framework.IOverLay",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "addOverLayAt",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "添加2d渲染组件",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "overLay",
+					"type": "egret3d.framework.IOverLay",
+					"description": ""
+				},
+				{
+					"name": "index",
+					"type": "number",
+					"description": "在overlays对应位置添加组件"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "calcProjectMatrix",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "计算相机投影矩阵",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "asp",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "matrix",
+					"type": "egret3d.math.Matrix",
+					"description": "projectmatrix（投影矩阵）"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "calcScreenPosFromWorldPos",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "由世界坐标得到屏幕坐标",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "主程序"
+				},
+				{
+					"name": "worldPos",
+					"type": "egret3d.math.Vector3",
+					"description": "世界坐标"
+				},
+				{
+					"name": "outScreenPos",
+					"type": "egret3d.math.Vector2",
+					"description": "屏幕坐标"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "calcViewMatrix",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "计算相机的viewmatrix（视矩阵）",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "matrix",
+					"type": "egret3d.math.Matrix",
+					"description": "返回的视矩阵"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "calcViewPortPixel",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "计算相机视口像素rect",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "主程序"
+				},
+				{
+					"name": "viewPortPixel",
+					"type": "egret3d.math.Rect",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "calcWorldPosFromScreenPos",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "由屏幕坐标得到世界坐标",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "主程序"
+				},
+				{
+					"name": "screenPos",
+					"type": "egret3d.math.Vector3",
+					"description": ""
+				},
+				{
+					"name": "outWorldPos",
+					"type": "egret3d.math.Vector3",
+					"description": "世界坐标"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Ray",
+			"name": "creatRayByScreen",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "由屏幕坐标发射射线",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "screenpos",
+					"type": "egret3d.math.Vector2",
+					"description": "屏幕坐标"
+				},
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "主程序"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getOverLays",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "返回此相机上的overlays数组",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "removeOverLay",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"description": "移除相机上的所有overly",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "overLay",
+					"type": "egret3d.framework.IOverLay",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Camera",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Camera",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\camera.ts",
+		"description": "视锥剔除组件，作为标记存在",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			}
+		]
+	}
+}

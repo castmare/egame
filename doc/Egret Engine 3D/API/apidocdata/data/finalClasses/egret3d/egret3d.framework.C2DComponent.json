@@ -1,0 +1,49 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.I2DComponent",
+			"name": "comp",
+			"memberof": "egret3d.framework.C2DComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "init",
+			"memberof": "egret3d.framework.C2DComponent",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "C2DComponent",
+			"memberof": "egret3d.framework.C2DComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "comp",
+					"type": "egret3d.framework.I2DComponent",
+					"description": ""
+				},
+				{
+					"name": "init",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "C2DComponent",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\transform2d.ts",
+		"description": "2D组件实例接口",
+		"version": "egret3d 1.0"
+	}
+}

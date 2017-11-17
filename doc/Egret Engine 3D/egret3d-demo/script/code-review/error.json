@@ -1,0 +1,552 @@
+[
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 332,
+        "value": "application"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 2792,
+        "value": "sceneMgr"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 6095,
+        "value": "canvas"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 7235,
+        "value": "batcher2D"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 7786,
+        "value": "canvasRenderer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 9353,
+        "value": "overlay2D"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 10214,
+        "value": "vector2"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 10357,
+        "value": "rect"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 10561,
+        "value": "border"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 10738,
+        "value": "color"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 10943,
+        "value": "vector3"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 11118,
+        "value": "vector4"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 11325,
+        "value": "quaternion"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 11535,
+        "value": "matrix"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 11667,
+        "value": "matrix3x2"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 12343,
+        "value": "transform2D"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 14651,
+        "value": "button"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 15694,
+        "value": "image2D"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 17127,
+        "value": "label"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 18198,
+        "value": "rawImage2D"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 18687,
+        "value": "resID"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 18847,
+        "value": "constText"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 19769,
+        "value": "stateLoad"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 20155,
+        "value": "assetBundle"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 20698,
+        "value": "assetMgr"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 23307,
+        "value": "assetRef"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 23524,
+        "value": "defMesh"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 23719,
+        "value": "defShader"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 24234,
+        "value": "defTexture"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 24369,
+        "value": "animationClip"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 26029,
+        "value": "subClip"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 26244,
+        "value": "atlas"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 26874,
+        "value": "font"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 27593,
+        "value": "charinfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 28118,
+        "value": "material"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 29600,
+        "value": "mesh"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 30221,
+        "value": "subMeshInfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 30426,
+        "value": "pathasset"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 31258,
+        "value": "pointitem"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 31395,
+        "value": "prefab"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 31999,
+        "value": "rawscene"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 32607,
+        "value": "shader"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 33537,
+        "value": "sprite"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 34191,
+        "value": "textasset"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 34588,
+        "value": "texture"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 36510,
+        "value": "aniplayer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 38397,
+        "value": "tPoseInfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 38658,
+        "value": "asbone"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 39099,
+        "value": "boxcollider"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 39946,
+        "value": "cameraPostQueue_Depth"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 40163,
+        "value": "cameraPostQueue_Quad"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 40408,
+        "value": "cameraPostQueue_Color"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 40838,
+        "value": "camera"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 43338,
+        "value": "effectSystem"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 45085,
+        "value": "frustumculling"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 45356,
+        "value": "guidpath"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 46313,
+        "value": "light"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 46666,
+        "value": "meshcollider"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 47192,
+        "value": "meshFilter"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 47512,
+        "value": "meshRenderer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 48213,
+        "value": "skinnedMeshRenderer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 49198,
+        "value": "spherestruct"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 49499,
+        "value": "spherecollider"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 50379,
+        "value": "trailRender_recorde"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 51752,
+        "value": "trailNode"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 52086,
+        "value": "trailRender"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 53212,
+        "value": "trailStick"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 53364,
+        "value": "pointinfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 53480,
+        "value": "inputMgr"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 53781,
+        "value": "binBuffer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 54399,
+        "value": "converter"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 56551,
+        "value": "binTool"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 61291,
+        "value": "referenceInfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 61569,
+        "value": "enumMgr"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 61703,
+        "value": "binReader"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 63005,
+        "value": "binWriter"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 65499,
+        "value": "angelref"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 68648,
+        "value": "commonStatic"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 96969,
+        "value": "nodeComponent"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 97118,
+        "value": "gameObject"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 98280,
+        "value": "renderContext"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 99672,
+        "value": "renderList"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 99838,
+        "value": "renderLayer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 100007,
+        "value": "scene"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 101337,
+        "value": "taskstate"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 101664,
+        "value": "taskMgr"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 101976,
+        "value": "aabb"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 102755,
+        "value": "obb"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 103549,
+        "value": "pickinfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 103885,
+        "value": "ray"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 104647,
+        "value": "transform"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 106872,
+        "value": "insID"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 110187,
+        "value": "pool"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 112664,
+        "value": "caps"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 113380,
+        "value": "webglkit"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 114846,
+        "value": "glDrawPass"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 117438,
+        "value": "number4"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 117646,
+        "value": "drawInfo"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 117829,
+        "value": "glMesh"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 119293,
+        "value": "meshData"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 121221,
+        "value": "staticMeshRenderer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 121481,
+        "value": "batchRenderer"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 122078,
+        "value": "glWindow"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 122617,
+        "value": "uniform"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 122809,
+        "value": "glShader"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 123202,
+        "value": "glProgram"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 123819,
+        "value": "shaderPool"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 124828,
+        "value": "textureReader"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 125367,
+        "value": "glRenderTarget"
+    },
+    {
+        "fileName": "C:/Users/18571/Documents/work/3d2/lib/egret3d.d.ts",
+        "pos": 125931,
+        "value": "glTexture2D"
+    }
+]

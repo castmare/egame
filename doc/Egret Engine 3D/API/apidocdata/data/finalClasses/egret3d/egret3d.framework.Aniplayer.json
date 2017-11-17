@@ -1,0 +1,281 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "autoplay",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "是否自动播放",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.TPoseInfo[]",
+			"name": "bones",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "骨骼数组",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "clipnames",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "返回动画数组（clips）所有动画的名字",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.AnimationClip[]",
+			"name": "clips",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "动画数组",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "mix",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "是否动画融合",
+			"version": "egret3d 1.0",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "speed",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "播放速度",
+			"version": "egret3d 1.0",
+			"default": "1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.PoseBoneMatrix[]",
+			"name": "startPos",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "初始位置",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addFinishedEventListener",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "给动画添加结束事件",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "finishCallBack",
+					"type": "Function",
+					"description": "事件"
+				},
+				{
+					"name": "thisObject",
+					"type": "any",
+					"description": "对象"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isPlay",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "是否在播放动画",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isStop",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "是否在停止动画",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "play",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "根据动画片段名字播放动画",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "animName",
+					"type": "string",
+					"description": "动画片段名字"
+				},
+				{
+					"name": "speed",
+					"type": "number",
+					"default": "1.0",
+					"description": "播放速度"
+				},
+				{
+					"name": "beRevert",
+					"type": "boolean",
+					"default": "false",
+					"description": "是否倒播"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "playByIndex",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "根据动画片段索引播放普通动画",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "animIndex",
+					"type": "number",
+					"description": "动画片段索引"
+				},
+				{
+					"name": "speed",
+					"type": "number",
+					"default": "1.0",
+					"description": "播放速度"
+				},
+				{
+					"name": "beRevert",
+					"type": "boolean",
+					"default": "false",
+					"description": "是否倒播"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "playCross",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "根据动画片段名字播放动画",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "animName",
+					"type": "string",
+					"description": "动画片段名字"
+				},
+				{
+					"name": "crosstimer",
+					"type": "number",
+					"description": "融合时间"
+				},
+				{
+					"name": "speed",
+					"type": "number",
+					"default": "1.0",
+					"description": "播放速度"
+				},
+				{
+					"name": "beRevert",
+					"type": "boolean",
+					"default": "false",
+					"description": "是否倒播"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "playCrossByIndex",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "根据动画片段索引播放动画",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "animIndex",
+					"type": "number",
+					"description": "动画片段索引"
+				},
+				{
+					"name": "crosstimer",
+					"type": "number",
+					"description": "融合时间"
+				},
+				{
+					"name": "speed",
+					"type": "number",
+					"default": "1.0",
+					"description": "播放速度"
+				},
+				{
+					"name": "beRevert",
+					"type": "boolean",
+					"default": "false",
+					"description": "是否倒播"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "stop",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"description": "停止播放动画",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Aniplayer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Aniplayer",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\aniplayer.ts",
+		"description": "动画播放器",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			}
+		]
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Capsule",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Cube",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Cylinder",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Plane",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Pyramid",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Quad",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Sphere",
+			"memberof": "egret3d.framework.PrimitiveType",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "PrimitiveType",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\util\\transformutil.ts",
+		"description": "原生3d模型类型",
+		"version": "egret3d 1.0"
+	}
+}

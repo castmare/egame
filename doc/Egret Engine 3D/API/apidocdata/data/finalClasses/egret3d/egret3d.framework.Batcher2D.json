@@ -1,0 +1,14 @@
+{
+	"member": [],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Batcher2D",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\canvasrenderer.ts",
+		"description": "2d批处理类",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "assetbundle",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "依赖的AssetBundle",
+			"version": "egret3d 1.0",
+			"default": "null"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "是否为默认资源",
+			"version": "egret3d 1.0",
+			"default": "false"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Parse",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "解析资源",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "txt",
+					"type": "string",
+					"description": "json数据"
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform",
+			"name": "getSceneRoot",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "获取场景根节点的克隆",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "disposeNow",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "useLightMap",
+			"memberof": "egret3d.framework.Rawscene",
+			"scope": "instance",
+			"description": "应用lightmap到场景中",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "scene",
+					"type": "egret3d.framework.Scene",
+					"description": "场景实例"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Rawscene",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\rawscene.ts",
+		"description": "场景数据资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

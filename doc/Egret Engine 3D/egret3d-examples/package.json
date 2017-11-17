@@ -1,0 +1,10 @@
+{
+  "name": "game",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  },
+  "scripts": {
+      "watch": "tsc -p src -w",
+      "build": "tsc -p src"
+  }
+}

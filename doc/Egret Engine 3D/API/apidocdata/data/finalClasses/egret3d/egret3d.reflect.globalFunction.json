@@ -1,0 +1,54 @@
+{
+	"globalFunction": [
+		{
+			"filename": "io\\reflect.ts",
+			"kind": "globalFunction",
+			"name": "UIComment",
+			"memberof": "egret3d.reflect",
+			"scope": "instance",
+			"description": "属性面板提示修饰",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "comment",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "io\\reflect.ts",
+			"kind": "globalFunction",
+			"name": "UIStyle",
+			"memberof": "egret3d.reflect",
+			"scope": "instance",
+			"description": "属性面板显示方式修饰",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "style",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "min",
+					"question": true,
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"question": true,
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "defvalue",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	]
+}

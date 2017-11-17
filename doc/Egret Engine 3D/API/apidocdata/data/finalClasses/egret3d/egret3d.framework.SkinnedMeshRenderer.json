@@ -1,0 +1,160 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.RenderLayerEnum",
+			"name": "layer",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "场景渲染层级（common、transparent、overlay）",
+			"version": "egret3d 1.0",
+			"default": "RenderLayerEnum.Common"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Material[]",
+			"name": "materials",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "材质数组",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "maxBoneCount",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "最大骨骼数量",
+			"version": "egret3d 1.0",
+			"default": "24"
+		},
+		{
+			"kind": "member",
+			"name": "mesh",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "返回mesh数据",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Aniplayer",
+			"name": "player",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "返回动画播放组件",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "queue",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "返回此组件的场景渲染层级排序依据queue大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "renderLayer",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "渲染mask层级（和相机相对应）",
+			"version": "egret3d 1.0",
+			"default": "CullingMask.default"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SkinnedMeshRenderer",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Pickinfo",
+			"name": "intersects",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"description": "射线检测",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "ray",
+					"type": "egret3d.framework.Ray",
+					"description": "射线"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": ""
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				},
+				{
+					"name": "camera",
+					"type": "egret3d.framework.Camera",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.SkinnedMeshRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SkinnedMeshRenderer",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\skinnedmeshrenderer.ts",
+		"description": "蒙皮网格渲染组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRenderer"
+			}
+		]
+	}
+}

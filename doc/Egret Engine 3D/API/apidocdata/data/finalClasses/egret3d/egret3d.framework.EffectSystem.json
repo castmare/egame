@@ -1,0 +1,214 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "autoplay",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "自动播放",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "beLoop",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "特效是否循环",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "fps",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "static",
+			"description": "特效播放速度",
+			"version": "egret3d 1.0",
+			"default": "30"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.RenderLayerEnum",
+			"name": "layer",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"default": "RenderLayerEnum.Transparent"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "queue",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "同层级渲染排序依据",
+			"version": "egret3d 1.0",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "renderLayer",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "渲染层级",
+			"version": "egret3d 1.0",
+			"default": "CullingMask.default"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "pause",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "暂停播放",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "play",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "播放特效",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "speed",
+					"type": "number",
+					"default": "1",
+					"description": "播放速度"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "提交各个EffectBatcher中的数据进行渲染",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": ""
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				},
+				{
+					"name": "camera",
+					"type": "egret3d.framework.Camera",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "reset",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "重置到初始状态",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "restSinglemesh",
+					"type": "boolean",
+					"default": "true",
+					"description": ""
+				},
+				{
+					"name": "resetParticle",
+					"type": "boolean",
+					"default": "true",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setEffect",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "设置特效数据 string",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "effectConfig",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setJsonData",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "设置特效数据 textasset",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "_jsonData",
+					"type": "egret3d.framework.Textasset",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stop",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"description": "停止播放",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.EffectSystem",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "EffectSystem",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\effectsystem.ts",
+		"description": "特效组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRenderer"
+			}
+		]
+	}
+}

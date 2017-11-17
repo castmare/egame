@@ -1,0 +1,141 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "KEY_A",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值A对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "65"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_D",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值D对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "68"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_E",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值E对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "69"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_Q",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值Q对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "81"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_R",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值R对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "82"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_S",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值S对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "83"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_W",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值W对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "87"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_a",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值a对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "97"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_d",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值d对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "100"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_e",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值e对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "101"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_q",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值q对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "113"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_r",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值r对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "114"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_s",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值s对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "115"
+		},
+		{
+			"kind": "member",
+			"name": "KEY_w",
+			"memberof": "egret3d.framework.NumberUtil",
+			"scope": "static",
+			"description": "获取键值w对应的codevalue",
+			"version": "egret3d 1.0",
+			"default": "119"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NumberUtil",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\util\\numberutil.ts",
+		"description": "Number类型的工具类",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.render.MeshData",
+			"name": "data",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "mesh数据实例",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.SubMeshInfo[]",
+			"name": "submesh",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "submesh信息列表",
+			"version": "egret3d 1.0",
+			"default": "[]"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Mesh",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "assetName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "Parse",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "解析资源",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "buf",
+					"type": "ArrayBuffer",
+					"description": "buffer数组"
+				},
+				{
+					"name": "webgl",
+					"type": "WebGLRenderingContext",
+					"description": "webgl实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Mesh",
+			"name": "clone",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "克隆mesh",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Pickinfo",
+			"name": "intersects",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "检测射线碰撞",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "ray",
+					"type": "egret3d.framework.Ray",
+					"description": "射线"
+				},
+				{
+					"name": "matrix",
+					"type": "egret3d.math.Matrix",
+					"description": "所在transform的矩阵"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "disposeNow",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Mesh",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Mesh",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\mesh.ts",
+		"description": "mesh资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

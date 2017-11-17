@@ -1,0 +1,521 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToFloat32",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToFloat64",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToInt16",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToInt32",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToInt8",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToLong",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "ArrayToString",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToULong",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToUint16",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArrayToUint8",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ArraytoUint32",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "buf",
+					"type": "Uint8Array",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Float32ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Float64ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Int16ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Int32ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Int8ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "LongToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "StringToUtf8Array",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "ULongToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Uint16ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Uint32toArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array|number[]",
+			"name": "Uint8ToArray",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "Uint8Array|number[]",
+					"default": "null",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getApplyFun",
+			"memberof": "egret3d.io.Converter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Converter",
+		"memberof": "egret3d.io",
+		"filename": "framework\\io\\binBuffer.ts"
+	}
+}

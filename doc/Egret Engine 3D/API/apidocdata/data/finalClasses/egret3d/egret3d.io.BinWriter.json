@@ -1,0 +1,391 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "length",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "BinWriter",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "ArrayBuffer",
+			"name": "getBuffer",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getLength",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "peek",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "seek",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "seek",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number[]",
+			"name": "stringToUtf8Array",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeByte",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeBytes",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "array",
+					"type": "Uint8Array|number[]",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "length",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeDouble",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeFloat",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt16",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt32",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt8",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeShort",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeSingle",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeStringAnsi",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeStringUtf8",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeStringUtf8DataOnly",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeSymbolByte",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"description": "/// </summary>",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt16",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt32",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt8",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUTFBytes",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeUint8Array",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "array",
+					"type": "Uint8Array|number[]",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "length",
+					"type": "number",
+					"default": "-1",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUnsignedInt",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUnsignedShort",
+			"memberof": "egret3d.io.BinWriter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "BinWriter",
+		"memberof": "egret3d.io",
+		"filename": "framework\\io\\stream.ts"
+	}
+}

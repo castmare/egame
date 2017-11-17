@@ -1,0 +1,48 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.ICollider",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform",
+			"name": "subTran",
+			"memberof": "egret3d.framework.ICollider",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getBound",
+			"memberof": "egret3d.framework.ICollider",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "intersectsTransform",
+			"memberof": "egret3d.framework.ICollider",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "tran",
+					"type": "egret3d.framework.Transform",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "ICollider",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\boxcollider.ts"
+	}
+}

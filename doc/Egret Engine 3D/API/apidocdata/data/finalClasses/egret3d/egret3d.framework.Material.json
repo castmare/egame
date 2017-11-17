@@ -1,0 +1,218 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "是否为默认资源",
+			"version": "egret3d 1.0",
+			"default": "false"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Material",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "assetName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "Parse",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "解析资源",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理实例"
+				},
+				{
+					"name": "json",
+					"type": "any",
+					"description": "json数据"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "changeShader",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "修改shader 保留原有数据",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "shader",
+					"type": "egret3d.framework.Shader",
+					"description": "shader实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Material",
+			"name": "clone",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "克隆",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "draw",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "绘制",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": "渲染上下文"
+				},
+				{
+					"name": "mesh",
+					"type": "egret3d.framework.Mesh",
+					"description": "渲染的mesh"
+				},
+				{
+					"name": "sm",
+					"type": "egret3d.framework.SubMeshInfo",
+					"description": "渲染的submesh信息"
+				},
+				{
+					"name": "basetype",
+					"type": "string",
+					"default": "\"base\"",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "getLayer",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "获取shader的layer",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "getQueue",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "获取shader的queue",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "getShader",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "获取shader",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "setShader",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "设置shader 不保留原有数据",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "shader",
+					"type": "egret3d.framework.Shader",
+					"description": "shader实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "disposeNow",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Material",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Material",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\material.ts",
+		"description": "材质资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

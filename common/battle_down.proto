@@ -1,0 +1,38 @@
+import "common.proto";
+
+// 上行消息
+message up_msg {
+  required uint32       _sequence     = 1; // 请求流水号
+  required bool         _repeat       = 2; // 是否是重复请求
+  required uint32       _role_id      = 3; // 角色ID(玩家ID = 角色ID div 10)
+  required login        _login        = 4; // 登录请求
+  required create_role  _create_role  = 5; // 创建角色
+  required select_role  _select_role  = 6; // 选择角色
+  required lookup_role  _lookup_role  = 7; // 查看角色
+}
+
+
+// 登录
+message login {
+  required string   _device_id  = 1; // 设备ID
+  rquuired string   _version    = 2; // 版本号 
+}
+
+// 创建角色
+message create_role {
+  required uint32   _role_cid = 1; // 角色创建ID
+  required string   _nickname = 2; // 昵称 
+}
+
+// 选择角色
+message select_role {
+  required uint32   _role_id = 1; // 角色ID
+}
+
+// 查看角色
+message lookup_role {
+  
+}
+
+// 开始匹配
+message 

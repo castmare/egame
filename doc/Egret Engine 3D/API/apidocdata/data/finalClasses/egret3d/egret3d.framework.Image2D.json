@@ -1,0 +1,107 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Color",
+			"name": "color",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "颜色",
+			"version": "egret3d 1.0",
+			"default": "new math.Color(1.0, 1.0, 1.0, 1.0)"
+		},
+		{
+			"kind": "member",
+			"name": "fillAmmount",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "填充率",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "fillMethod",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "图片填充方式",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"name": "imageType",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "图片显示模式",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Material",
+			"name": "mat",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "材质",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Sprite",
+			"name": "sprite",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "精灵",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform2D",
+			"name": "transform",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "setTexture",
+			"memberof": "egret3d.framework.Image2D",
+			"scope": "instance",
+			"description": "设置图片",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "texture",
+					"type": "egret3d.framework.Texture",
+					"description": "图片"
+				},
+				{
+					"name": "border",
+					"question": true,
+					"type": "egret3d.math.Border",
+					"description": "切片信息"
+				},
+				{
+					"name": "rect",
+					"question": true,
+					"type": "egret3d.math.Rect",
+					"description": "显示范围"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Image2D",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\image.ts",
+		"description": "2d图片组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRectRenderer"
+			}
+		]
+	}
+}

@@ -1,0 +1,276 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "afterRender",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "渲染完成后的回调",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.AssetMgr",
+			"name": "assetmgr",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "资源管理类的实例",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Batcher2D",
+			"name": "batcher",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "2d批处理类，用来收集2d节点，完成绘制",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "is2dUI",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "用于区分当前容器是在overlay(2D)还是canvasrenderer(3D)下",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform",
+			"name": "parentTrans",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "如果是在canvasrenderer下，这里可以获取到canvasrenderer所在的transform节点",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "pixelHeight",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "画布使用的像素高度",
+			"version": "egret3d 1.0",
+			"default": "480"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "pixelWidth",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "画布使用的像素宽度",
+			"version": "egret3d 1.0",
+			"default": "640"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Scene",
+			"name": "scene",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "当前所在场景",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "WebGLRenderingContext",
+			"name": "webgl",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "webgl实例",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Canvas",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "构造函数",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "addChild",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "添加2d节点",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "node",
+					"type": "egret3d.framework.Transform2D",
+					"description": "要添加的2d节点实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "drawScene",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "绘制2d节点",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "node",
+					"type": "egret3d.framework.Transform2D",
+					"description": "要绘制的2d节点"
+				},
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": "渲染上下文"
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理类的实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform2D",
+			"name": "getChild",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "获取指定的孩子节点",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "index",
+					"type": "number",
+					"description": "位置索引"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getChildCount",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "获取孩子节点的数量",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform2D[]",
+			"name": "getChildren",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "获取所有孩子节点",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform2D",
+			"name": "getRoot",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "获取canvas的根节点",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "pushRawData",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "提交原始数据</p>所有的2d渲染组件将数据提交到这里</p>最后由批处理完成绘制",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "mat",
+					"type": "egret3d.framework.Material",
+					"description": "材质"
+				},
+				{
+					"name": "data",
+					"type": "number[]",
+					"description": "2d渲染组件的顶点数据"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "removeChild",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "移除2d节点",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "node",
+					"type": "egret3d.framework.Transform2D",
+					"description": "要移除的2d节点实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "渲染",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": "渲染上下文"
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理类的实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Canvas",
+			"scope": "instance",
+			"description": "更新",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": "两次update的间隔时间"
+				},
+				{
+					"name": "touch",
+					"type": "Boolean",
+					"description": "是否接收到事件"
+				},
+				{
+					"name": "XOnScreenSpace",
+					"type": "number",
+					"description": "屏幕空间下的x偏移"
+				},
+				{
+					"name": "YOnScreenSpace",
+					"type": "number",
+					"description": "屏幕空间下的y偏移"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Canvas",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\canvas.ts",
+		"description": "2d节点的容器类",
+		"version": "egret3d 1.0"
+	}
+}

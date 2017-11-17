@@ -1,0 +1,53 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.INodeComponent",
+			"name": "comp",
+			"memberof": "egret3d.framework.NodeComponent",
+			"scope": "instance",
+			"description": "组件实例",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "init",
+			"memberof": "egret3d.framework.NodeComponent",
+			"scope": "instance",
+			"description": "是否初始化过",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "NodeComponent",
+			"memberof": "egret3d.framework.NodeComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "comp",
+					"type": "egret3d.framework.INodeComponent",
+					"description": ""
+				},
+				{
+					"name": "init",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NodeComponent",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\scene\\gameobject.ts",
+		"description": "组件接口",
+		"version": "egret3d 1.0"
+	}
+}

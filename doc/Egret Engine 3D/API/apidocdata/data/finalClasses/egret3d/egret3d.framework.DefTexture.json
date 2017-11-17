@@ -1,0 +1,26 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "initDefaultTexture",
+			"memberof": "egret3d.framework.DefTexture",
+			"scope": "static",
+			"params": [
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DefTexture",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\default\\deftexture.ts"
+	}
+}

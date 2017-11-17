@@ -1,0 +1,105 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "content",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "文本内容",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "是否为默认资源",
+			"version": "egret3d 1.0",
+			"default": "false"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Textasset",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "assetName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Textasset",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Textasset",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\textasset.ts",
+		"description": "文本资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

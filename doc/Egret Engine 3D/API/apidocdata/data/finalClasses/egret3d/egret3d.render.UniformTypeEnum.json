@@ -1,0 +1,71 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Float",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Float4",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Float4v",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Float4x4",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Float4x4v",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Floatv",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Texture",
+			"memberof": "egret3d.render.UniformTypeEnum",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "UniformTypeEnum",
+		"memberof": "egret3d.render",
+		"filename": "render\\resource\\shader.ts",
+		"description": "uniform类型枚举",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Button",
+			"memberof": "egret3d.framework.Primitive2DType",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Image2D",
+			"memberof": "egret3d.framework.Primitive2DType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Label",
+			"memberof": "egret3d.framework.Primitive2DType",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "RawImage2D",
+			"memberof": "egret3d.framework.Primitive2DType",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "Primitive2DType",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\util\\transformutil.ts",
+		"description": "原生2d类型",
+		"version": "egret3d 1.0"
+	}
+}

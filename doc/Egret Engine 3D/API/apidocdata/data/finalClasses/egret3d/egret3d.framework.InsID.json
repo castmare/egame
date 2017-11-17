@@ -1,0 +1,30 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "InsID",
+			"memberof": "egret3d.framework.InsID",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getInsID",
+			"memberof": "egret3d.framework.InsID",
+			"scope": "instance",
+			"description": "获取唯一id",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "InsID",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\transform\\transform.ts",
+		"description": "作为引擎实例的唯一id使用 自增",
+		"version": "egret3d 1.0"
+	}
+}

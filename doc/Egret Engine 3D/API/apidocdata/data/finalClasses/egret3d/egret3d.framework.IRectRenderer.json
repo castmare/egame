@@ -1,0 +1,48 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform2D",
+			"name": "transform",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.framework.I2DComponent"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.IRectRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "canvas",
+					"type": "egret3d.framework.Canvas",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "updateTran",
+			"memberof": "egret3d.framework.IRectRenderer",
+			"scope": "instance",
+			"description": "//刷新顶点信息"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IRectRenderer",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\transform2d.ts",
+		"description": "2D渲染组件的接口",
+		"version": "egret3d 1.0",
+		"augments": [
+			"egret3d.framework.I2DComponent"
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.INodeComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.framework.INodeComponent"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.RenderLayerEnum",
+			"name": "layer",
+			"memberof": "egret3d.framework.IRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "queue",
+			"memberof": "egret3d.framework.IRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "renderLayer",
+			"memberof": "egret3d.framework.IRenderer",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.IRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": ""
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				},
+				{
+					"name": "camera",
+					"type": "egret3d.framework.Camera",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IRenderer",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\scene\\render.ts",
+		"description": "渲染器接口 继承自组件接口",
+		"version": "egret3d 1.0",
+		"augments": [
+			"egret3d.framework.INodeComponent"
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "key",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.ValueData",
+			"name": "x",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance",
+			"default": "new ValueData()"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.ValueData",
+			"name": "y",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance",
+			"default": "new ValueData()"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.ValueData",
+			"name": "z",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance",
+			"default": "new ValueData()"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ParticleNode",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "clone",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector3",
+			"name": "getValue",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector3",
+			"name": "getValueRandom",
+			"memberof": "egret3d.framework.ParticleNode",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ParticleNode",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\particle\\data\\particlenode.ts",
+		"description": "粒子节点"
+	}
+}

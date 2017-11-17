@@ -1,0 +1,74 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform2D",
+			"name": "transform",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "onPointEvent",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "canvas",
+					"type": "egret3d.framework.Canvas",
+					"description": ""
+				},
+				{
+					"name": "ev",
+					"type": "egret3d.framework.PointEvent",
+					"description": ""
+				},
+				{
+					"name": "oncap",
+					"type": "boolean",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "remove",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.I2DComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "I2DComponent",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\transform2d.ts",
+		"description": "2d组件的接口",
+		"version": "egret3d 1.0",
+		"children": [
+			"egret3d.framework.IRectRenderer"
+		]
+	}
+}

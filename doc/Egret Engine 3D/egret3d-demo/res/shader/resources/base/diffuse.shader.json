@@ -1,0 +1,47 @@
+{
+    "layer": "geometry",
+    "properties": [
+        "_MainTex('MainTex',Texture)='white'{}",
+        "_AlphaCut('AlphaCut',Range(0.0,1.0)) = 0.5",
+        "_MainTex_ST('MainTex_ST',Vector) = (1,1,1,1)"
+    ],
+    "passes": {
+        "base": [
+            {
+                "showface": "ccw",
+                "vs": "diffuse",
+                "fs": "diffuse",
+                "zwrite": "on",
+                "ztest": "lequal"
+            }
+        ],
+        "skin": [
+            {
+                "showface": "ccw",
+                "vs": "bone",
+                "fs": "diffuse"
+            }
+        ],
+        "lightmap": [
+            {
+                "showface": "ccw",
+                "vs": "diffuselightmap",
+                "fs": "diffuselightmap"
+            }
+        ],
+        "quad": [
+            {
+                "showface": "ccw",
+                "vs": "post_quad",
+                "fs": "post_quad_depth"
+            }
+        ],
+        "base_depth": [
+            {
+                "showface": "ccw",
+                "vs": "post_depth",
+                "fs": "post_depth"
+            }
+        ]
+    }
+}

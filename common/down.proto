@@ -1,0 +1,111 @@
+import "common.proto";
+
+// ===================================================================
+// 下行消息
+// ===================================================================
+message down_msg {
+    optional error_info     _error      = 1;  // 错误信息
+    optional notify_msg     _notify     = 2;  // 通知消息
+    optional login_reply    _login      = 3;  // 登录
+    optional role_reply     _role       = 4;  // 角色
+    optional magic_reply    _magic      = 5;  // 魔法
+    optional team_reply     _team       = 6;  // 队伍
+    optional match__reply   _match      = 7;  // 匹配
+}
+
+
+// ===================================================================
+// 通用结果
+// ===================================================================
+enum result {
+    success = 0;
+    fail    = 1;
+}
+
+// ===================================================================
+// 服务器通知
+// ===================================================================
+message notify_msg {
+    
+}
+
+
+// ===================================================================
+// 登录回复
+// ===================================================================
+message login_reply {
+    enum result {
+        success = 1;        // 登录成功
+        create_role = 2;    // 需要创建角色，直接进入
+        select_role = 3;    // 已经选择角色
+        lookup_role = 4;    // 查看角色，需要选角进入
+    }
+    required result     _result = 1   // 登录结果
+    repeated role       _roles  = 1;  // 角色列表，select_role是第一个
+}
+
+
+// ===================================================================
+// 角色回复
+// ===================================================================
+message role_reply {
+    optional create_role_reply    _create  = 1;  // 创建角色
+    optional select_role_reply    _select  = 2;  // 选择角色
+    optional lookup_role_reply    _lookup  = 3;  // 查看角色
+}
+
+// 创建角色
+message create_role_reply {
+    enum result {
+        success = 0;              // 创建成功
+        nickname_repeat = 1;      // 昵称重复
+        nickname_error  = 2;      // 昵称不符合规范
+        nickname_dirty  = 3;      // 昵称含有屏蔽字
+    }
+    required result   _result   = 1;  // 创建结果
+    optional role     _role     = 2;  // 角色数据，创建成功返回          
+}
+
+// 选择角色
+message select_role_reply {
+    required role   _role   = 1; // 角色数据
+}
+
+// 查看角色
+message lookup_role_reply {
+    repeated roles   _roles   = 1; // 角色列表
+}
+
+// ===================================================================
+// 魔法回复
+// ===================================================================
+message magic_reply {
+    optional select_magic_reply     _select = 1;  // 选择魔法
+}
+
+// 选择魔法
+message select_magic_reply {
+    optional result _result = 1;
+}
+
+// ===================================================================
+// 组队回复
+// ===================================================================
+message team_reply {
+    optional team_member    _invite     = 1;  // 组队邀请
+    optional team_info      _accept     = 2;  // 接受邀请
+    optional result         _refuse     = 3;  // 拒绝邀请
+    optional result         _state      = 4;  // 状态修改
+    optional result         _leave      = 5;  // 离开队伍
+}
+
+
+
+// ===================================================================
+// 匹配回复
+// ===================================================================
+message match_reply {
+    optional start_match_reply      _start      = 1;  // 开始匹配
+    optional cancel_match_reply     _cancel     = 2;  // 取消匹配
+}
+

@@ -1,0 +1,457 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Color",
+			"name": "color_one",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取1填充的color",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector2",
+			"name": "vector2_right",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取v2朝x轴正向",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector2",
+			"name": "vector2_up",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取v2朝y轴正向",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "vector3_forward",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取v3朝z轴正向",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "vector3_one",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取1填充的v3",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "vector3_right",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取v3朝x轴正向",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "vector3_up",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取v3朝y轴正向",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "vector3_zero",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取0填充的v3",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector4",
+			"name": "vector4_one",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"rwType": 1,
+			"description": "获取1填充的v4",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "egret3d.math.Matrix",
+			"name": "clone_matrix",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "带返回值的matrix克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Matrix",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Matrix3x2",
+			"name": "clone_matrix3x2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "带返回值的3x2matrix克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Matrix3x2",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Quaternion",
+			"name": "clone_quaternion",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "带返回值的quat克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Quaternion",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector2",
+			"name": "clone_vector2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "带返回值的v2克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Vector2",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector3",
+			"name": "clone_vector3",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "带返回值的v3克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Vector3",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector4",
+			"name": "clone_vector4",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "有返回值的v4克隆",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "src",
+					"type": "egret3d.math.Vector4",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "collect_all",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "释放所有池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_color",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除color池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_matrix",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除matrix池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_matrix3x2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除3x2matrix池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_quaternion",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除quat池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_vector2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除v2池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_vector3",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除v3池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "collect_vector4",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "清除v4池",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_color",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收color",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Color",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_matrix",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个matrix",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Matrix",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_matrix3x2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个3x2matrix",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Matrix3x2",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_quaternion",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个quat",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Quaternion",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_vector2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个v2",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Vector2",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_vector2Array",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个v2数组",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "vs",
+					"type": "egret3d.math.Vector2[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_vector3",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个v3",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Vector3",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "delete_vector4",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "回收一个v4",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "v",
+					"type": "egret3d.math.Vector4",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Color",
+			"name": "new_color",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个color",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Matrix",
+			"name": "new_matrix",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个matrix",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Matrix3x2",
+			"name": "new_matrix3x2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个3x2matrix",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Quaternion",
+			"name": "new_quaternion",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个quat",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector2",
+			"name": "new_vector2",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个v2",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector3",
+			"name": "new_vector3",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个v3",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.math.Vector4",
+			"name": "new_vector4",
+			"memberof": "egret3d.math.Pool",
+			"scope": "static",
+			"description": "获取一个v4",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Pool",
+		"memberof": "egret3d.math",
+		"filename": "render\\pool.ts",
+		"description": "对常用结构类型数据进行池化处理，在大量使用结构类型数据的逻辑中尽量使用该结构",
+		"version": "egret3d 1.0"
+	}
+}

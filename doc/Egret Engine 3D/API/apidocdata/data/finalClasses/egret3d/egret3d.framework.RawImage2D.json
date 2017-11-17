@@ -1,0 +1,56 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Color",
+			"name": "color",
+			"memberof": "egret3d.framework.RawImage2D",
+			"scope": "instance",
+			"description": "颜色",
+			"version": "egret3d 1.0",
+			"default": "new math.Color(1.0, 1.0, 1.0, 1.0)"
+		},
+		{
+			"kind": "member",
+			"name": "image",
+			"memberof": "egret3d.framework.RawImage2D",
+			"scope": "instance",
+			"description": "图片",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Material",
+			"name": "mat",
+			"memberof": "egret3d.framework.RawImage2D",
+			"scope": "instance",
+			"description": "材质",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform2D",
+			"name": "transform",
+			"memberof": "egret3d.framework.RawImage2D",
+			"scope": "instance",
+			"description": "当前组件的2d节点",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RawImage2D",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\rawimage.ts",
+		"description": "2d图片组件</p>参照UGUI的思路，rawImage只拿整个图片来显示，不关心Sprite、九宫、填充等。这些统一都在iamge中处理",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRectRenderer"
+			}
+		]
+	}
+}

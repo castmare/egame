@@ -1,0 +1,29 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "direction",
+			"memberof": "egret3d.framework.Ray",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "origin",
+			"memberof": "egret3d.framework.Ray",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Ray",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\tool\\ray.ts",
+		"description": "射线",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "engine_egret",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build-code",
+    "build-code": "tsc -p code",
+    "build-loader": "tsc -p code_loader",
+    "publish": "uglifyjs lib/egret3d.js  -o lib/egret3d.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://redmine.cafegame.cn:8888/monkey/engine_egret.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "2.4.1",
+    "uglify-js": "3.0.24"
+  }
+}

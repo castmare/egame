@@ -1,0 +1,89 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "center",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"description": "球形碰撞盒中心点",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "radius",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"description": "球形碰撞盒半径（缩放处理过的半径）",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "srcradius",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"description": "球形碰撞盒半径（collider定义的源半径）",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Spherestruct",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "_center",
+					"type": "egret3d.math.Vector3",
+					"description": ""
+				},
+				{
+					"name": "_r",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "intersects",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"description": "球形碰撞盒结构体互相检测碰撞",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "bound",
+					"type": "any",
+					"description": "球形碰撞盒结构体"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Spherestruct",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "worldmatrix",
+					"type": "egret3d.math.Matrix",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Spherestruct",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\spherecollider.ts",
+		"description": "球形碰撞盒结构体",
+		"version": "egret3d 1.0"
+	}
+}

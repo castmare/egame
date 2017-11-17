@@ -1,0 +1,25 @@
+{
+    "files": [
+        {
+            "name": "resources/E_noise_uv02.png",
+            "length": 49582
+        },
+        { 
+            "name": "resources/GJ1.png",
+            "length": 49589
+        },
+        {
+            "name": "resources/gj.mesh.bin",
+            "length": 41722
+        },
+           {
+            "name": "resources/qilang.mesh.bin",
+            "length": 41722
+        },
+       
+        {
+            "name": "fx_ss_female@attack_04-.effect.json",
+            "length": 41722
+        }
+    ]
+}

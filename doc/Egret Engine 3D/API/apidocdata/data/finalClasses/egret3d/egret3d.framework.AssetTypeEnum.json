@@ -1,0 +1,205 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Aniclip",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "动画片段",
+			"version": "egret3d 1.0",
+			"default": "12"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Atlas",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "图集",
+			"version": "egret3d 1.0",
+			"default": "14"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Auto",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "根据后缀 动态识别",
+			"version": "egret3d 1.0",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Bundle",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "资源包",
+			"version": "egret3d 1.0",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "CompressBundle",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "压缩的资源包",
+			"version": "egret3d 1.0",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Font",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "字体",
+			"version": "egret3d 1.0",
+			"default": "15"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GLFragmentShader",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "glsl fs",
+			"version": "egret3d 1.0",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GLVertexShader",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "glsl vs",
+			"version": "egret3d 1.0",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Material",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "材质",
+			"version": "egret3d 1.0",
+			"default": "11"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Mesh",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "模型",
+			"version": "egret3d 1.0",
+			"default": "9"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "PVR",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "pvr贴图",
+			"version": "egret3d 1.0",
+			"default": "20"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Prefab",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "预设",
+			"version": "egret3d 1.0",
+			"default": "10"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Scene",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "场景",
+			"version": "egret3d 1.0",
+			"default": "13"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Shader",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "shader",
+			"version": "egret3d 1.0",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TextAsset",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "文本",
+			"version": "egret3d 1.0",
+			"default": "16"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Texture",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "贴图",
+			"version": "egret3d 1.0",
+			"default": "7"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TextureDesc",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "贴图desc",
+			"version": "egret3d 1.0",
+			"default": "8"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Unknown",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "未知",
+			"version": "egret3d 1.0",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "pathAsset",
+			"memberof": "egret3d.framework.AssetTypeEnum",
+			"scope": "static",
+			"description": "可编辑路径",
+			"version": "egret3d 1.0",
+			"default": "19"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "AssetTypeEnum",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\assetmgr.ts",
+		"description": "资源类型",
+		"version": "egret3d 1.0"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Application",
+			"name": "app",
+			"memberof": "Stats.Stats",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "HTMLDivElement",
+			"name": "container",
+			"memberof": "Stats.Stats",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Stats",
+			"memberof": "Stats.Stats",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "Stats.Stats",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Stats",
+		"memberof": "Stats",
+		"filename": "framework\\stats.ts"
+	}
+}

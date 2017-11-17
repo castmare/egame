@@ -1,0 +1,595 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "length",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getBufLength",
+			"memberof": "egret3d.io.BinBuffer",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.io.BinBuffer"
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array",
+			"name": "getBuffer",
+			"memberof": "egret3d.io.BinBuffer",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.io.BinBuffer"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getBytesAvailable",
+			"memberof": "egret3d.io.BinBuffer",
+			"scope": "instance",
+			"description": "剩余有效可读字节",
+			"inherited": true,
+			"inherits": "egret3d.io.BinBuffer"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getLength",
+			"memberof": "egret3d.io.BinBuffer",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.io.BinBuffer"
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array",
+			"name": "getUint8Array",
+			"memberof": "egret3d.io.BinBuffer",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "egret3d.io.BinBuffer"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "readBoolean",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readByte",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Uint8Array",
+			"name": "readBytes",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "length",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readDouble",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readFloat",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readInt",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readInt16",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readInt32",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readInt8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readLong",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readShort",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readSingle",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "readStringAnsi",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "readStringUtf8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "readStringUtf8FixLength",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "length",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readSymbolByte",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"description": "/// </summary>"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readUInt16",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readUInt32",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readUInt8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readULong",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "readUTFBytes",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "length",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readUnsignedInt",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "readUnsignedShort",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeByte",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeBytes",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "array",
+					"type": "Uint8Array|number[]",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "length",
+					"type": "number",
+					"default": "-1",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeDouble",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeFloat",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt16",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt32",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeInt8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeLong",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeShort",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeSingle",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeStringAnsi",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeStringUtf8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeStringUtf8DataOnly",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeSymbolByte",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"description": "/// </summary>",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt16",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt32",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUInt8",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeULong",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUTFBytes",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "writeUint8Array",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "array",
+					"type": "Uint8Array|number[]",
+					"description": ""
+				},
+				{
+					"name": "offset",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "length",
+					"type": "number",
+					"default": "-1",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUnsignedInt",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "writeUnsignedShort",
+			"memberof": "egret3d.io.BinTool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "BinTool",
+		"memberof": "egret3d.io",
+		"filename": "framework\\io\\binBuffer.ts",
+		"augments": []
+	}
+}

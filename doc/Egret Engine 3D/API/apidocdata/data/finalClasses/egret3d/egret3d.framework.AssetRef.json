@@ -1,0 +1,29 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.IAsset",
+			"name": "asset",
+			"memberof": "egret3d.framework.AssetRef",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "refcount",
+			"memberof": "egret3d.framework.AssetRef",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "AssetRef",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\assetmgr.ts",
+		"description": "资源引用计数的结构",
+		"version": "egret3d 1.0"
+	}
+}

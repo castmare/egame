@@ -1,0 +1,57 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform2D",
+			"name": "Create2DPrimitive",
+			"memberof": "egret3d.framework.TransformUtil",
+			"scope": "static",
+			"description": "创建默认的2d控件",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "type",
+					"type": "egret3d.framework.Primitive2DType",
+					"description": "2d控件类型"
+				},
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "application的实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret3d.framework.Transform",
+			"name": "CreatePrimitive",
+			"memberof": "egret3d.framework.TransformUtil",
+			"scope": "static",
+			"description": "创建默认的3d对象",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "type",
+					"type": "egret3d.framework.PrimitiveType",
+					"description": "原生3d对象类型"
+				},
+				{
+					"name": "app",
+					"type": "egret3d.framework.Application",
+					"description": "application的实例"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TransformUtil",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\util\\transformutil.ts",
+		"description": "Transform工具类",
+		"version": "egret3d 1.0"
+	}
+}

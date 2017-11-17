@@ -1,0 +1,142 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "angle",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "boxDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "circleDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "coneDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "depth",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "direction",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"name": "edgeDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.emitfromenum",
+			"name": "emitFrom",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"default": "emitfromenum.base"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "height",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "hemisphereDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "position",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "radius",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "randomDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.ParticleSystemShape",
+			"name": "shapeType",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"default": "ParticleSystemShape.NORMAL"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "sphereDirection",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "width",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "clone",
+			"memberof": "egret3d.framework.ParticleStartData",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ParticleStartData",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\particle\\data\\particlestartdata.ts",
+		"description": "粒子初始数据"
+	}
+}

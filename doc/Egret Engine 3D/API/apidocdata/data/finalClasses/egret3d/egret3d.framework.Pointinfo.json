@@ -1,0 +1,43 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "id",
+			"memberof": "egret3d.framework.Pointinfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "touch",
+			"memberof": "egret3d.framework.Pointinfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "x",
+			"memberof": "egret3d.framework.Pointinfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "y",
+			"memberof": "egret3d.framework.Pointinfo",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Pointinfo",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\input\\inputmgr.ts",
+		"description": "鼠标(触屏)点击信息",
+		"version": "egret3d 1.0"
+	}
+}

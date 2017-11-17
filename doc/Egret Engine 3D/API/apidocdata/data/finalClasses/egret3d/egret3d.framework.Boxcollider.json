@@ -1,0 +1,114 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "center",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "碰撞盒中心点",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "colliderVisible",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "碰撞盒的可见性",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Matrix",
+			"name": "matrix",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"rwType": 1,
+			"description": "获取该碰撞盒物体的世界矩阵",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.math.Vector3",
+			"name": "size",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "碰撞盒大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Transform",
+			"name": "subTran",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "子transform",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "intersectsTransform",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"description": "检测碰撞",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "tran",
+					"type": "egret3d.framework.Transform",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.Boxcollider",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Boxcollider",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\boxcollider.ts",
+		"description": "表示矩形碰撞盒",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.INodeComponent"
+			},
+			{
+				"name": "egret3d.framework.ICollider"
+			}
+		]
+	}
+}

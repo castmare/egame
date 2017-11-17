@@ -1,0 +1,118 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret3d.framework.AssetMgr",
+			"name": "assetmgr",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "资源管理器实例",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "{[id:string]:number}",
+			"name": "mapNamed",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "资源GUID的字典，key为资源的名称",
+			"version": "egret3d 1.0",
+			"default": "{}"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "name",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "包名",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "path",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "不带包名路径",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "url",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "包完整路径",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "AssetBundle",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "url",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "load",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "加载包",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理器实例"
+				},
+				{
+					"name": "stateinfo",
+					"type": "{state:StateLoad, type}",
+					"description": "加载的状态信息实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "parse",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "解析包",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "json",
+					"type": "any",
+					"description": "json"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "unload",
+			"memberof": "egret3d.framework.AssetBundle",
+			"scope": "instance",
+			"description": "卸载包 包内对应的资源引用计数减一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "AssetBundle",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\assetmgr.ts",
+		"description": "资源包",
+		"version": "egret3d 1.0"
+	}
+}

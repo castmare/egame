@@ -1,0 +1,39 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ColorTint",
+			"memberof": "egret3d.framework.TransitionType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "None",
+			"memberof": "egret3d.framework.TransitionType",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SpriteSwap",
+			"memberof": "egret3d.framework.TransitionType",
+			"scope": "static",
+			"default": "2"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "TransitionType",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\2d\\component\\button.ts",
+		"description": "按钮变换类型",
+		"version": "egret3d 1.0"
+	}
+}

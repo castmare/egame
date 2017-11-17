@@ -1,0 +1,159 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "defaultAsset",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "是否为默认资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "{[id:string]:egret3d.framework.Sprite}",
+			"name": "sprites",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "解析得到的sprite列表 key-->name",
+			"version": "egret3d 1.0",
+			"default": "{}"
+		},
+		{
+			"kind": "member",
+			"name": "texture",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "获取当前texture",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "textureheight",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "贴图像素高度",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "texturewidth",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "贴图像素宽度",
+			"version": "egret3d 1.0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Atlas",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "assetName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "Parse",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "解析资源",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "jsonStr",
+					"type": "string",
+					"description": "json数据"
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": "资源管理实例"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "caclByteLength",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "计算资源字节大小",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "dispose",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "释放资源",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getGUID",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "获取资源唯一id",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getName",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "获取资源名称",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "unuse",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "引用计数减一",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "disposeNow",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "use",
+			"memberof": "egret3d.framework.Atlas",
+			"scope": "instance",
+			"description": "引用计数加一",
+			"version": "egret3d 1.0"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Atlas",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\asset\\resource\\atlas.ts",
+		"description": "图集资源",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IAsset"
+			}
+		]
+	}
+}

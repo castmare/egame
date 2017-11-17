@@ -1,0 +1,32 @@
+// 角色信息 
+message role {
+    optional uint32 _role_id    = 1;  // 角色ID
+    optional uint32 _elf_id     = 2;  // 精灵ID
+    optional string _name       = 3;  // 昵称
+    optional uint32 _level      = 4;  // 等级
+    
+}
+
+
+// 队伍队员状态
+enum team_member_state {
+    inviting    = 1;  // 正在接受邀请
+    unready     = 2;  // 未准备
+    ready       = 3;  // 准备就绪
+}
+
+
+message team_member {
+    optional uint32             _role_id    = 1;  // 角色ID
+    optional team_member_state  _state      = 2;  // 状态
+    optional uint32             _elf_id     = 3;  // 精灵ID
+    optional string             _name       = 4;  // 昵称
+    optional int32              _level      = 5;  // 等级
+}
+
+message team_info {
+    repeated team_member    _members    = 1;  // 成员列表
+    optional uint32         _leader_id  = 2;  // 队长的role_id
+}
+
+

@@ -1,0 +1,191 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "color",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "返回 matrial调色",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "extenedOneSide",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "拖尾mesh是否向经过路径的两边延展",
+			"version": "egret3d 1.0",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.GameObject",
+			"name": "gameObject",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "挂载的gameobject",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.RenderLayerEnum",
+			"name": "layer",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "场景渲染层级（common、transparent、overlay）",
+			"version": "egret3d 1.0",
+			"default": "RenderLayerEnum.Common"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "lookAtCamera",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "拖尾是否朝向相机",
+			"version": "egret3d 1.0",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.Material",
+			"name": "material",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "设置拖尾的材质",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "queue",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "同场景渲染层级时候先后排序依据",
+			"version": "egret3d 1.0",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "egret3d.framework.CullingMask",
+			"name": "renderLayer",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "渲染mask层级（和相机相对应）",
+			"version": "egret3d 1.0",
+			"default": "CullingMask.default"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "play",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "开始拖尾",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "render",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "render",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "context",
+					"type": "egret3d.framework.RenderContext",
+					"description": ""
+				},
+				{
+					"name": "assetmgr",
+					"type": "egret3d.framework.AssetMgr",
+					"description": ""
+				},
+				{
+					"name": "camera",
+					"type": "egret3d.framework.Camera",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setWidth",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "调节拖尾宽度",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "Width",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setspeed",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "拖尾速度，调节拖尾长短（0-1）",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "upspeed",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "start",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "stop",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "关闭拖尾",
+			"version": "egret3d 1.0"
+		},
+		{
+			"kind": "function",
+			"name": "update",
+			"memberof": "egret3d.framework.TrailRender",
+			"scope": "instance",
+			"description": "update",
+			"version": "egret3d 1.0",
+			"params": [
+				{
+					"name": "delta",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TrailRender",
+		"memberof": "egret3d.framework",
+		"filename": "framework\\component\\trailrender.ts",
+		"description": "拖尾组件",
+		"version": "egret3d 1.0",
+		"implements": [
+			{
+				"name": "egret3d.framework.IRenderer"
+			}
+		]
+	}
+}

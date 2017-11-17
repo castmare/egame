@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=0.5, minimum-scale=0.5, maximum-scale=1.0">
+    <title>Egret 3D</title>
+    <style>
+        body {
+            -ms-user-select: none;
+            -webkit-user-select: none;
+        }
+    </style>
+    <script src="lib/Reflect.js"></script>
+    <script src="lib/egret3d.js"></script>
+    <script src="bin/app.js"></script>
+</head>
+
+<body style="border: 0px; padding: 0px; margin: 0px; overflow:hidden; -ms-user-select: none; -webkit-user-select: none; user-select: none">
+    <div id="drawarea" style="position:absolute;height:100%;width:100%;"></div>
+</body>
+
+<script>
+    window.onload = function () {
+        var app = new egret3d.framework.Application();
+        var div = document.getElementById("drawarea");
+        app.start(div);
+        app.showFps();
+        app.bePlay = true;
+        app.addUserCode("Main");
+    }
+</script>
+
+</html>
