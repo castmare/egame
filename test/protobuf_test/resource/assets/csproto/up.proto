@@ -1,0 +1,103 @@
+import "common.proto";
+
+// ===================================================================
+// 上行消息
+// ===================================================================
+message up_msg {
+    required uint32         sequence     = 1;  // 请求流水号
+    required bool           repeat       = 2;  // 是否是重复请求
+    required uint32         user_id      = 3;  // 玩家ID
+    required uint32         role_id      = 4;  // 角色ID(玩家ID = 角色ID div 10)
+    optional sdk_login_req 	sdk_login    = 5;  // sdk登录
+    optional login_req      login        = 6;  // 登录
+    optional role_req       role         = 7;  // 角色
+    optional magic_req      magic        = 8;  // 魔法
+    optional team_req       team         = 9;  // 队伍
+    optional match_req      match        = 10;  // 匹配
+}
+
+// ===================================================================
+// 登录请求
+// ===================================================================
+
+message sdk_login_req {
+
+}
+
+message login_req {
+    required string   device_id  = 1;  // 设备ID
+    required string   version    = 2;  // 版本号 
+}
+
+// ===================================================================
+// 角色请求
+// ===================================================================
+message role_req {
+    optional create_role    create  = 1;  // 创建角色
+    optional select_role    select  = 2;  // 选择角色
+    optional lookup_role    lookup  = 3;  // 查看角色
+}
+
+message create_role {
+    required uint32   role_cid = 1;  // 角色创建ID
+}
+
+message select_role {
+    required uint32   role_id = 1;  // 角色ID
+}
+
+message lookup_role {
+  
+}
+
+
+// ===================================================================
+// 魔法请求
+// ===================================================================
+message magic_req {
+    optional select_magic   select = 1;  // 选择魔法
+}
+
+message select_magic {
+    required uint32     magic_id = 1;  // 魔法ID
+}
+
+
+// ===================================================================
+// 队伍请求
+// ===================================================================
+message team_req {
+    optional team_invite    invite     = 1;  // 组队邀请
+    optional team_accept    accept     = 2;  // 接受邀请
+    optional team_refuse    refuse     = 3;  // 拒绝邀请
+    optional team_state     state      = 4;  // 状态修改
+    optional team_leave     leave      = 5;  // 离开队伍
+}
+
+message team_invite {
+    required uint32     role_id        = 1;   // 角色ID
+}
+
+message team_accept {}
+
+message team_refuse {}
+
+message team_state {
+    required team_member_state  state  = 1;  // 状态ID
+}
+
+message team_leave {}
+
+// ===================================================================
+// 匹配请求
+// ===================================================================
+message match_req {
+    optional start_match    start  = 1;  // 开始匹配
+    optional cancel_match   cancel = 2;  // 取消匹配
+}
+
+message start_match {}
+
+message cancel_match {}
+
+

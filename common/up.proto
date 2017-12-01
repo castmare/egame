@@ -19,7 +19,7 @@ message up_msg {
 // ===================================================================
 message login_req {
     required string   _device_id  = 1;  // 设备ID
-    rquuired string   _version    = 2;  // 版本号 
+    required string   _version    = 2;  // 版本号 
 }
 
 // ===================================================================

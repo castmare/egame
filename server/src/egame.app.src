@@ -5,8 +5,22 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  log4erl
                  ]},
   {mod, { egame_app, []}},
-  {env, []}
+  {env, [
+    {debug, '?debug'},
+    {version, "'?version'"},
+    {main_port, '?main_port'},
+    {ws_main_port, '?ws_main_port'},
+    {svr_type, '?svr_type'},
+    {svr_id, '?svr_id'},
+    {svr_ip, "'?svr_ip'"},
+    {svr_name, "'?svr_name'"},
+    {game_db_server, "'?game_db_server'"},
+    {game_db_name, "'?game_db_name'"},
+    {oss_db_server, "'?oss_db_server'"},
+    {oss_db_name, "'?oss_db_name'"}
+    ]}
  ]}.

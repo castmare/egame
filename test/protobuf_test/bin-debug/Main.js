@@ -169,20 +169,32 @@ var Main = (function (_super) {
         textfield.x = 172;
         textfield.y = 135;
         this.textfield = textfield;
-        var protoFile = RES.getRes("test_proto");
-        console.log("protoFile", protoFile + "");
-        var proto = protobuf.parse(protoFile);
-        var AwesomeMessage = proto.root.lookupType("awesomepackage.AwesomeMessage");
-        var message = AwesomeMessage.create({ awesomeField: "AwesomeString" });
-        var encodedData = AwesomeMessage.encode(message).finish();
-        var decodedData = AwesomeMessage.decode(encodedData);
+        var protoFile = RES.getRes("up_proto");
+        var proto = protobuf.parse(protoFile, { keepCase: true });
+        var UpMsg = proto.root.lookupType("up_msg");
+        var message = UpMsg.create({ _sequence: 1, _repeat: false, _user_id: 1001 });
+        var encodedData = UpMsg.encode(message).finish();
+        var decodedData = UpMsg.decode(encodedData);
         console.log("message", message, encodedData, decodedData);
-        message = AwesomeMessage.create({ awesomeField: "hello" });
-        console.log("message = " + JSON.stringify(message));
-        var buffer = AwesomeMessage.encode(message).finish();
-        console.log("buffer = " + Array.prototype.toString.call(buffer));
-        var decoded = AwesomeMessage.decode(buffer);
-        console.log("decoded = " + JSON.stringify(decoded));
+        var protoFile2 = RES.getRes("common_proto");
+        var proto2 = protobuf.parse(protoFile2, { keepCase: true });
+        var Role = proto2.root.lookupType("role_st");
+        var message2 = Role.create({ _role_id: 101, _elf_id: 2, _name: "NickName", _level: 0 });
+        var encodedData2 = Role.encode(message2).finish();
+        var decodedData2 = Role.decode(encodedData2);
+        console.log("message2", message2, encodedData2, decodedData2);
+        var protoFile3 = RES.getRes("down_proto");
+        var proto3 = protobuf.parse(protoFile3 + protoFile2, { keepCase: true });
+        var Role2 = proto3.root.lookupType("role_st");
+        var DownMsg = proto3.root.lookupType("down_msg");
+        var message3 = DownMsg.create({ login: { result: 3, user_id: 3 } });
+        var encodedData3 = DownMsg.encode(message3).finish();
+        var decodedData3 = DownMsg.decode(encodedData3);
+        console.log("message3", message3, encodedData3, decodedData3);
+        // let net = new Network()
+        // net.Connect("192.168.5.7", 13001),
+        RPC.Init();
+        RPC.Call("login", { device_id: "lifan-host", version: "1.0.0" }, function (reply) { console.log("reply", reply); });
         //根据name关键字，异步获取一个json配置文件，name属性请参考resources/resource.json配置文件的内容。
         // Get asynchronously a json configuration file according to name keyword. As for the property of name please refer to the configuration file of resources/resource.json.
         RES.getResAsync("description_json", this.startAnimation, this);

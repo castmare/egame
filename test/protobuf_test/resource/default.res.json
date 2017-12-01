@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,test_proto",
+			"keys": "bg_jpg,egret_icon_png,description_json,up_proto,down_proto,common_proto",
 			"name": "preload"
 		}
 	],
@@ -22,9 +22,19 @@
 			"name": "description_json"
 		},
 		{
-			"url": "assets/csproto/test.proto",
+			"url": "assets/csproto/common.proto",
 			"type": "text",
-			"name": "test_proto"
+			"name": "common_proto"
+		},
+		{
+			"url": "assets/csproto/down.proto",
+			"type": "text",
+			"name": "down_proto"
+		},
+		{
+			"url": "assets/csproto/up.proto",
+			"type": "text",
+			"name": "up_proto"
 		}
 	]
 }

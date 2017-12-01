@@ -23,12 +23,15 @@
       "name": "res"
     },
     {
-      "name": "promise",
-      "path": "./promise"
+      "name": "socket"
     },
     {
       "name": "protobuf_lib",
       "path": "../protobuf_lib"
+    },
+    {
+      "name": "promise",
+      "path": "./promise"
     }
   ]
 }

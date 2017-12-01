@@ -1,0 +1,775 @@
+2017-11-19 14:17:04 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.157.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.147.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.148.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 298
+  neighbours:
+2017-11-19 14:17:04 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-19 14:17:04 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.146.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.145.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.147.0>,normal}]
+    links: [<0.145.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2017-11-19 14:37:06 =ERROR REPORT====
+** Connection attempt from disallowed node c286@localhost ** 
+2017-11-19 14:37:49 =ERROR REPORT====
+** Connection attempt from disallowed node c329@localhost ** 
+2017-11-19 14:38:57 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.165.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.155.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.156.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 298
+  neighbours:
+2017-11-19 14:38:57 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-19 14:38:57 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.154.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.153.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.155.0>,normal}]
+    links: [<0.153.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2017-11-19 14:54:43 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.167.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.157.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.158.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 298
+  neighbours:
+2017-11-19 14:54:43 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-19 14:54:43 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.155.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.157.0>,normal}]
+    links: [<0.155.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2017-11-19 14:55:58 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.167.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.157.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.158.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 298
+  neighbours:
+2017-11-19 14:55:58 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-19 14:55:58 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.155.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.157.0>,normal}]
+    links: [<0.155.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2017-11-19 15:58:05 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.167.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.157.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.158.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 308
+  neighbours:
+2017-11-19 15:58:05 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-19 15:58:05 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"src/net_server/net_server_sup.erl"},{line,64}]},{net_server_sup,map_fun,1,[{file,"src/net_server/net_server_sup.erl"},{line,48}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{net_server_sup,init,1,[{file,"src/net_server/net_server_sup.erl"},{line,39}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.155.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.157.0>,normal}]
+    links: [<0.155.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2017-11-19 16:09:35 =CRASH REPORT====
+  crasher:
+    initial call: tcp_server:accepter/2
+    pid: <0.169.0>
+    registered_name: []
+    exception error: {undef,[{logic_server,loop,[#Port<0.3494>],[]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [main_socket,net_server_sup,egame_sup,<0.157.0>]
+    message_queue_len: 0
+    messages: []
+    links: [#Port<0.3494>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 626
+  neighbours:
+2017-11-19 18:38:26 =CRASH REPORT====
+  crasher:
+    initial call: tcp_server:accepter/2
+    pid: <0.170.0>
+    registered_name: []
+    exception error: {undef,[{logic_server,loop,[#Port<0.3559>],[]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [main_socket,net_server_sup,egame_sup,<0.157.0>]
+    message_queue_len: 0
+    messages: []
+    links: [#Port<0.3559>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 626
+  neighbours:
+2017-11-22 22:21:59 =ERROR REPORT====
+** gen_event handler {file_appender,app2} crashed.
+** Was installed in default_logger
+** Last event was: {log,{log,info,"debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1],{{2017,11,22},{22,21,59}},461414}}
+** When handler state == {file_appender,"./logs","dgame",{file_descriptor,prim_file,{#Port<0.3596>,20}},0,{log_type,size,10240000,undefined},100,"log",info,[91,level,93,32,date2,32,time2,32,log,new_line]}
+** Reason == {badarg,[{io_lib,format,["debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}
+2017-11-22 22:21:59 =ERROR REPORT====
+** Generic server <0.156.0> terminating 
+** Last message in was {gen_event_EXIT,{file_appender,app2},{'EXIT',{badarg,[{io_lib,format,["debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+** When Server state == [{appender,file_appender,app2}]
+** Reason for termination == 
+** {appender_died,{'EXIT',{badarg,[{io_lib,format,["debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+2017-11-22 22:21:59 =CRASH REPORT====
+  crasher:
+    initial call: logger_guard:init/1
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{appender_died,{'EXIT',{badarg,[{io_lib,format,["debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [log4erl_sup,<0.101.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.102.0>,<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 312
+  neighbours:
+2017-11-22 22:21:59 =SUPERVISOR REPORT====
+     Supervisor: {local,log4erl_sup}
+     Context:    child_terminated
+     Reason:     {appender_died,{'EXIT',{badarg,[{io_lib,format,["debug logic_server get client ip error~n",[#Port<0.3809>,[49,50,45,49,50,52,53,50,50,51,52,8,1,16,0,24,233,7,34,20,10,9,49,50,52,53,50],1,<<50,53,53,50,18,7,49,46,48,46,48,48,49>>,1]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+     Offender:   [{pid,<0.156.0>},{id,app2},{mfargs,{logger_guard,start_link,[default_logger,file_appender,app2,{conf,[{dir,"./logs"},{level,info},{file,dgame},{type,size},{max,10240000},{suffix,log},{rotation,100},{format,"[%L] %j %T %l%n"}]}]}},{restart_type,permanent},{shutdown,10000},{child_type,worker}]
+
+2017-11-24 01:50:04 =CRASH REPORT====
+  crasher:
+    initial call: memcache:init/1
+    pid: <0.161.0>
+    registered_name: []
+    exception error: {undef,[{persistence,get_device_id_mapping,[],[]},{memcache,init_deviceid_index,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 239
+  neighbours:
+2017-11-24 01:50:04 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {undef,[{persistence,get_device_id_mapping,[],[]},{memcache,init_deviceid_index,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,memcache},{mfargs,{memcache,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-11-24 01:50:04 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,memcache,{undef,[{persistence,get_device_id_mapping,[],[]},{memcache,init_deviceid_index,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 195
+  neighbours:
+2017-11-24 02:11:32 =CRASH REPORT====
+  crasher:
+    initial call: memcache:init/1
+    pid: <0.161.0>
+    registered_name: []
+    exception error: bad argument: [{dets,first,[user_dets],[{file,"dets.erl"},{line,1266}]},{persistence,dets_foldl,3,[{file,"persistence.erl"},{line,74}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 251
+  neighbours:
+2017-11-24 02:11:32 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {badarg,[{dets,first,[user_dets],[{file,"dets.erl"},{line,1266}]},{persistence,dets_foldl,3,[{file,"persistence.erl"},{line,74}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,memcache},{mfargs,{memcache,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-11-24 02:11:32 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,memcache,{badarg,[{dets,first,[user_dets],[{file,"dets.erl"},{line,1266}]},{persistence,dets_foldl,3,[{file,"persistence.erl"},{line,74}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,133}]},{memcache,init,1,[{file,"memcache.erl"},{line,86}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 204
+  neighbours:
+2017-11-24 02:13:46 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:init_base/1
+    pid: <0.160.0>
+    registered_name: []
+    exception error: {undef,[{persistence,init,[],[]},{init_base,init,1,[{file,"init_base.erl"},{line,24}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 239
+  neighbours:
+2017-11-24 02:13:46 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {undef,[{persistence,init,[],[]},{init_base,init,1,[{file,"init_base.erl"},{line,24}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,init_base},{mfargs,{init_base,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2017-11-24 02:13:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,init_base,{undef,[{persistence,init,[],[]},{init_base,init,1,[{file,"init_base.erl"},{line,24}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 196
+  neighbours:
+2017-11-24 02:16:49 =ERROR REPORT====
+** gen_event handler {file_appender,app2} crashed.
+** Was installed in default_logger
+** Last event was: {log,{log,info,"persistence:init_dets ~w success ~p",[user_dets],{{2017,11,24},{2,16,49}},250891}}
+** When handler state == {file_appender,"./logs","dgame",{file_descriptor,prim_file,{#Port<0.3596>,20}},0,{log_type,size,10240000,undefined},100,"log",info,[91,level,93,32,date2,32,time2,32,log,new_line]}
+** Reason == {badarg,[{io_lib,format,["persistence:init_dets ~w success ~p",[user_dets]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}
+2017-11-24 02:16:49 =ERROR REPORT====
+** Generic server <0.156.0> terminating 
+** Last message in was {gen_event_EXIT,{file_appender,app2},{'EXIT',{badarg,[{io_lib,format,["persistence:init_dets ~w success ~p",[user_dets]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+** When Server state == [{appender,file_appender,app2}]
+** Reason for termination == 
+** {appender_died,{'EXIT',{badarg,[{io_lib,format,["persistence:init_dets ~w success ~p",[user_dets]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+2017-11-24 02:16:49 =CRASH REPORT====
+  crasher:
+    initial call: logger_guard:init/1
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{appender_died,{'EXIT',{badarg,[{io_lib,format,["persistence:init_dets ~w success ~p",[user_dets]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [log4erl_sup,<0.101.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.102.0>,<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 291
+  neighbours:
+2017-11-24 02:16:49 =SUPERVISOR REPORT====
+     Supervisor: {local,log4erl_sup}
+     Context:    child_terminated
+     Reason:     {appender_died,{'EXIT',{badarg,[{io_lib,format,["persistence:init_dets ~w success ~p",[user_dets]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+     Offender:   [{pid,<0.156.0>},{id,app2},{mfargs,{logger_guard,start_link,[default_logger,file_appender,app2,{conf,[{dir,"./logs"},{level,info},{file,dgame},{type,size},{max,10240000},{suffix,log},{rotation,100},{format,"[%L] %j %T %l%n"}]}]}},{restart_type,permanent},{shutdown,10000},{child_type,worker}]
+
+2017-11-24 02:16:49 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:init_base/1
+    pid: <0.160.0>
+    registered_name: []
+    exception error: bad argument: [{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>,<0.105.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 424
+  neighbours:
+2017-11-24 02:16:49 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {badarg,[{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,init_base},{mfargs,{init_base,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2017-11-24 02:16:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,init_base,{badarg,[{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 205
+  neighbours:
+2017-11-24 14:24:33 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:init_base/1
+    pid: <0.160.0>
+    registered_name: []
+    exception error: bad argument: [{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>,<0.105.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 424
+  neighbours:
+2017-11-24 14:24:33 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {badarg,[{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,init_base},{mfargs,{init_base,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2017-11-24 14:24:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,init_base,{badarg,[{ets,new,[user_ets,[set,named_table,public,compressed,{keypos,2},{heir,undefined,[]}]],[]},{user_db,init,0,[{file,"user_db.erl"},{line,23}]},{init_base,init,1,[{file,"init_base.erl"},{line,25}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 205
+  neighbours:
+2017-11-24 14:26:45 =CRASH REPORT====
+  crasher:
+    initial call: memcache:init/1
+    pid: <0.165.0>
+    registered_name: []
+    exception error: {undef,[{persistence,get_max_uid,[],[]},{memcache,init,1,[{file,"memcache.erl"},{line,87}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 256
+  neighbours:
+2017-11-24 14:26:45 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {undef,[{persistence,get_max_uid,[],[]},{memcache,init,1,[{file,"memcache.erl"},{line,87}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,memcache},{mfargs,{memcache,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-11-24 14:26:45 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,memcache,{undef,[{persistence,get_max_uid,[],[]},{memcache,init,1,[{file,"memcache.erl"},{line,87}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 191
+  neighbours:
+2017-11-24 14:53:28 =ERROR REPORT====
+** gen_event handler {file_appender,app2} crashed.
+** Was installed in default_logger
+** Last event was: {log,{log,error,"logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]],{{2017,11,24},{14,53,28}},497428}}
+** When handler state == {file_appender,"./logs","dgame",{file_descriptor,prim_file,{#Port<0.3596>,20}},0,{log_type,size,10240000,undefined},100,"log",info,[91,level,93,32,date2,32,time2,32,log,new_line]}
+** Reason == {badarg,[{io_lib,format,["logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}
+2017-11-24 14:53:28 =ERROR REPORT====
+** Generic server <0.156.0> terminating 
+** Last message in was {gen_event_EXIT,{file_appender,app2},{'EXIT',{badarg,[{io_lib,format,["logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+** When Server state == [{appender,file_appender,app2}]
+** Reason for termination == 
+** {appender_died,{'EXIT',{badarg,[{io_lib,format,["logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+2017-11-24 14:53:28 =CRASH REPORT====
+  crasher:
+    initial call: logger_guard:init/1
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{appender_died,{'EXIT',{badarg,[{io_lib,format,["logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [log4erl_sup,<0.101.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.102.0>,<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 307
+  neighbours:
+2017-11-24 14:53:28 =SUPERVISOR REPORT====
+     Supervisor: {local,log4erl_sup}
+     Context:    child_terminated
+     Reason:     {appender_died,{'EXIT',{badarg,[{io_lib,format,["logic_server:process_msg failed ~w ~p~n",[error,{badmatch,<<8,232,131,223,208,5,16,0,24,0,32,0,50,22,10,13,49,35,49,50,45,49,50,52,53,50,50,51,52,18,5,49,46,48,46,48>>},[{logic_server,process_msg,5,[{file,"logic_server.erl"},{line,61}]},{logic_server,loop,1,[{file,"logic_server.erl"},{line,41}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]]],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+     Offender:   [{pid,<0.156.0>},{id,app2},{mfargs,{logger_guard,start_link,[default_logger,file_appender,app2,{conf,[{dir,"./logs"},{level,info},{file,dgame},{type,size},{max,10240000},{suffix,log},{rotation,100},{format,"[%L] %j %T %l%n"}]}]}},{restart_type,permanent},{shutdown,10000},{child_type,worker}]
+
+2017-11-24 15:03:29 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:init_sup/1
+    pid: <0.166.0>
+    registered_name: []
+    exception error: {undef,[{logic_servre,init,[],[]},{init_sup,init,1,[{file,"init_sup.erl"},{line,29}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 307
+  neighbours:
+2017-11-24 15:03:29 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {undef,[{logic_servre,init,[],[]},{init_sup,init,1,[{file,"init_sup.erl"},{line,29}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,init_sup},{mfargs,{init_sup,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2017-11-24 15:03:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,init_sup,{undef,[{logic_servre,init,[],[]},{init_sup,init,1,[{file,"init_sup.erl"},{line,29}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 204
+  neighbours:
+2017-11-29 17:14:07 =CRASH REPORT====
+  crasher:
+    initial call: memcache:init/1
+    pid: <0.165.0>
+    registered_name: []
+    exception error: {{badmatch,[{user,2,"12-12452234",undefined,16777218,1511523611,undefined,1511523611,undefined,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},[]}]},[{persistence,'-get_device_id_dict/0-fun-0-',3,[{file,"persistence.erl"},{line,53}]},{persistence,dets_foldl_0,4,[{file,"persistence.erl"},{line,78}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,140}]},{memcache,init,1,[{file,"memcache.erl"},{line,94}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 266
+  neighbours:
+2017-11-29 17:14:07 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,[{user,2,"12-12452234",undefined,16777218,1511523611,undefined,1511523611,undefined,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},[]}]},[{persistence,'-get_device_id_dict/0-fun-0-',3,[{file,"persistence.erl"},{line,53}]},{persistence,dets_foldl_0,4,[{file,"persistence.erl"},{line,78}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,140}]},{memcache,init,1,[{file,"memcache.erl"},{line,94}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,undefined},{id,memcache},{mfargs,{memcache,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-11-29 17:14:07 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,memcache,{{badmatch,[{user,2,"12-12452234",undefined,16777218,1511523611,undefined,1511523611,undefined,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},[]}]},[{persistence,'-get_device_id_dict/0-fun-0-',3,[{file,"persistence.erl"},{line,53}]},{persistence,dets_foldl_0,4,[{file,"persistence.erl"},{line,78}]},{memcache,init_deviceid_ets,1,[{file,"memcache.erl"},{line,140}]},{memcache,init,1,[{file,"memcache.erl"},{line,94}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 214
+  neighbours:
+2017-11-29 17:36:35 =ERROR REPORT====
+Loading of /home/lifan/egame/server/ebin/tcp_server.beam failed: not_purged
+2017-11-29 18:51:50 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:net_server_sup/1
+    pid: <0.169.0>
+    registered_name: []
+    exception error: {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"net_server/net_server_sup.erl"},{line,66}]},{net_server_sup,map_fun,1,[{file,"net_server/net_server_sup.erl"},{line,50}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,init,1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]}]}
+    ancestors: [egame_sup,<0.152.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.153.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 411
+  neighbours:
+2017-11-29 18:51:50 =SUPERVISOR REPORT====
+     Supervisor: {local,egame_sup}
+     Context:    start_error
+     Reason:     {{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"net_server/net_server_sup.erl"},{line,66}]},{net_server_sup,map_fun,1,[{file,"net_server/net_server_sup.erl"},{line,50}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,init,1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]}]}
+     Offender:   [{pid,undefined},{id,net_server_sup},{mfargs,{net_server_sup,start_link,[]}},{restart_type,permanent},{shutdown,2000},{child_type,supervisor}]
+
+2017-11-29 18:51:50 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.151.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,net_server_sup,{{badmatch,undefined},[{net_server_sup,get_base_params,3,[{file,"net_server/net_server_sup.erl"},{line,66}]},{net_server_sup,map_fun,1,[{file,"net_server/net_server_sup.erl"},{line,50}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,'-init/1-lc$^0/1-0-',1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{net_server_sup,init,1,[{file,"net_server/net_server_sup.erl"},{line,41}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,365}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,333}]}]}}},{egame_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.150.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.152.0>,normal}]
+    links: [<0.150.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 162
+  neighbours:
+2017-11-30 20:57:15 =ERROR REPORT====
+** gen_event handler {file_appender,app2} crashed.
+** Was installed in default_logger
+** Last event was: {log,{log,info,"down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined},{{2017,11,30},{20,57,15}},447018}}
+** When handler state == {file_appender,"./logs","dgame",{file_descriptor,prim_file,{#Port<0.3600>,20}},0,{log_type,size,10240000,undefined},100,"log",info,[91,level,93,32,date2,32,time2,32,log,new_line]}
+** Reason == {badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}
+2017-11-30 20:57:15 =ERROR REPORT====
+** Generic server <0.156.0> terminating 
+** Last message in was {gen_event_EXIT,{file_appender,app2},{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+** When Server state == [{appender,file_appender,app2}]
+** Reason for termination == 
+** {appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+2017-11-30 20:57:15 =CRASH REPORT====
+  crasher:
+    initial call: logger_guard:init/1
+    pid: <0.156.0>
+    registered_name: []
+    exception exit: {{appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [log4erl_sup,<0.101.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.102.0>,<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 306
+  neighbours:
+2017-11-30 20:57:15 =SUPERVISOR REPORT====
+     Supervisor: {local,log4erl_sup}
+     Context:    child_terminated
+     Reason:     {appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+     Offender:   [{pid,<0.156.0>},{id,app2},{mfargs,{logger_guard,start_link,[default_logger,file_appender,app2,{conf,[{dir,"./logs"},{level,info},{file,dgame},{type,size},{max,10240000},{suffix,log},{rotation,100},{format,"[%L] %j %T %l%n"}]}]}},{restart_type,permanent},{shutdown,10000},{child_type,worker}]
+
+2017-11-30 21:00:03 =ERROR REPORT====
+** gen_event handler {file_appender,app2} crashed.
+** Was installed in default_logger
+** Last event was: {log,{log,info,"down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined},{{2017,11,30},{21,0,3}},927571}}
+** When handler state == {file_appender,"./logs","dgame",{file_descriptor,prim_file,{#Port<0.3798>,26}},0,{log_type,size,10240000,undefined},100,"log",info,[91,level,93,32,date2,32,time2,32,log,new_line]}
+** Reason == {badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}
+2017-11-30 21:00:03 =ERROR REPORT====
+** Generic server <0.11754.0> terminating 
+** Last message in was {gen_event_EXIT,{file_appender,app2},{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+** When Server state == [{appender,file_appender,app2}]
+** Reason for termination == 
+** {appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+2017-11-30 21:00:03 =CRASH REPORT====
+  crasher:
+    initial call: logger_guard:init/1
+    pid: <0.11754.0>
+    registered_name: []
+    exception exit: {{appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [log4erl_sup,<0.101.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.102.0>,<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 289
+  neighbours:
+2017-11-30 21:00:03 =SUPERVISOR REPORT====
+     Supervisor: {local,log4erl_sup}
+     Context:    child_terminated
+     Reason:     {appender_died,{'EXIT',{badarg,[{io_lib,format,["down msg is ~p~n",{down_msg,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],[{file,"io_lib.erl"},{line,170}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{lists,map,2,[{file,"lists.erl"},{line,1239}]},{file_appender,do_log,2,[{file,"src/file_appender.erl"},{line,118}]},{file_appender,handle_event,2,[{file,"src/file_appender.erl"},{line,82}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,573}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,555}]},{gen_event,handle_msg,6,[{file,"gen_event.erl"},{line,299}]}]}}}
+     Offender:   [{pid,<0.11754.0>},{id,app2},{mfargs,{logger_guard,start_link,[default_logger,file_appender,app2,{conf,[{dir,"./logs"},{level,info},{file,dgame},{type,size},{max,10240000},{suffix,log},{rotation,100},{format,"[%L] %j %T %l%n"}]}]}},{restart_type,permanent},{shutdown,10000},{child_type,worker}]
+

@@ -1,6 +1,0 @@
-// awesome.proto
-package awesomepackage;
-
-message AwesomeMessage {
-    optional string awesome_field = 1; // becomes awesomeField
-}
