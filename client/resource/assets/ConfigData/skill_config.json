@@ -1,0 +1,176 @@
+{
+
+"1": [
+{"Skill Name":"火系普攻",
+"Component 1":"fire",
+"Skill Type":"fire",
+"Description":"普通攻击。消耗一个元素。",
+"Icon":"s525_jpg",
+"Dmg Radius":"480",
+"Select Radius":"80"}
+],
+
+"2": [
+{"Skill Name":"天火",
+"Component 1":"fire",
+"Component 2":"fire",
+"Component 3":"fire",
+"Skill Type":"fire",
+"Description":"点击地面后，对小范围内目标造成高伤害。",
+"Icon":"s534_jpg",
+"Dmg Radius":"480",
+"Select Radius":"100"}
+],
+
+"3": [
+{"Skill Name":"地火",
+"Component 1":"fire",
+"Component 2":"fire",
+"Component 3":"water",
+"Skill Type":"fire",
+"Description":"在自己脚底下放置一个敌方看不到的火焰陷阱，踩上去的敌人会受到伤害，并无法移动1秒。陷阱存在时间12秒。",
+"Icon":"s33_jpg",
+"Dmg Radius":"480",
+"Select Radius":"100"}
+],
+
+"4": [
+{"Skill Name":"火球",
+"Component 1":"fire",
+"Component 2":"fire",
+"Component 3":"earth",
+"Skill Type":"fire",
+"Description":"砸向一个目标，并造成轻微击退效果。",
+"Icon":"s32_jpg",
+"Dmg Radius":"480",
+"Select Radius":"100"}
+],
+
+"5": [
+{"Skill Name":"陨石",
+"Component 1":"fire",
+"Component 2":"water",
+"Component 3":"earth",
+"Skill Type":"fire",
+"Description":"召唤陨石砸地造成高伤害，并往前方继续滚动一段距离，对沿途敌人造成低伤害。",
+"Icon":"s5303_jpg",
+"Dmg Radius":"480",
+"Select Radius":"200"}
+],
+
+"6": [
+{"Skill Name":"水系普攻",
+"Component 1":"water",
+"Skill Type":"water",
+"Description":"普通攻击。消耗一个元素。",
+"Icon":"s152_jpg",
+"Dmg Radius":"320",
+"Select Radius":"80"}
+],
+
+"7": [
+{"Skill Name":"冰霜",
+"Component 1":"water",
+"Component 2":"water",
+"Component 3":"water",
+"Skill Type":"water",
+"Description":"点击地面后，对小范围内目标造成低伤害，并且3秒内速度减半。",
+"Icon":"s531_jpg",
+"Dmg Radius":"320",
+"Select Radius":"150"}
+],
+
+"8": [
+{"Skill Name":"冰箱",
+"Component 1":"water",
+"Component 2":"water",
+"Component 3":"fire",
+"Skill Type":"water",
+"Description":"把自己冻在原地，免疫一切伤害2秒，结束时，对附近小范围敌人造成伤害并一秒内无法移动。",
+"Icon":"s920_jpg",
+"Dmg Radius":"320",
+"Select Radius":"80"}
+],
+
+"9": [
+{"Skill Name":"冰墙",
+"Component 1":"water",
+"Component 2":"water",
+"Component 3":"earth",
+"Skill Type":"water",
+"Description":"再面对方向制造一面冰墙，擦上冰墙的人将无法移动。冰墙持续4秒",
+"Icon":"s926_jpg",
+"Dmg Radius":"320",
+"Select Radius":"80"}
+],
+
+"10": [
+{"Skill Name":"冰箭",
+"Component 1":"water",
+"Component 2":"fire",
+"Component 3":"earth",
+"Skill Type":"water",
+"Description":"发射冰箭，刺伤所有沿途的敌人，并造成减速2秒效果。",
+"Icon":"s924_jpg",
+"Dmg Radius":"320",
+"Select Radius":"100"}
+],
+
+"11": [
+{"Skill Name":"土系普攻",
+"Component 1":"earth",
+"Skill Type":"earth",
+"Description":"普通攻击。消耗一个元素。",
+"Icon":"s10012_jpg",
+"Dmg Radius":"160",
+"Select Radius":"100"}
+],
+
+"12": [
+{"Skill Name":"强攻",
+"Component 1":"earth",
+"Component 2":"earth",
+"Component 3":"earth",
+"Skill Type":"earth",
+"Description":"点击地面后，可以闪现到目标点，并且无敌3秒钟。",
+"Icon":"s300_jpg",
+"Dmg Radius":"160",
+"Select Radius":"100"}
+],
+
+"13": [
+{"Skill Name":"地震",
+"Component 1":"earth",
+"Component 2":"earth",
+"Component 3":"fire",
+"Skill Type":"earth",
+"Description":"对身体周围的所有敌人造成伤害。",
+"Icon":"s830_jpg",
+"Dmg Radius":"160",
+"Select Radius":"160"}
+],
+
+"14": [
+{"Skill Name":"土遁",
+"Component 1":"earth",
+"Component 2":"earth",
+"Component 3":"water",
+"Skill Type":"earth",
+"Description":"隐身2秒，对敌方不可见，隐身结束后第一次普攻伤害翻倍。",
+"Icon":"cs80_png",
+"Dmg Radius":"160",
+"Select Radius":"80"}
+],
+
+"15": [
+{"Skill Name":"大地之王",
+"Component 1":"earth",
+"Component 2":"fire",
+"Component 3":"water",
+"Skill Type":"earth",
+"Description":"释放后，3秒内无法攻击，但是期间受到的伤害会累加起来，最后把这个伤害打到最近敌人身上。",
+"Icon":"s10014_jpg",
+"Dmg Radius":"240",
+"Select Radius":"100"}
+]
+}

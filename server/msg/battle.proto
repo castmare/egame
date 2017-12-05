@@ -1,0 +1,66 @@
+import "common.proto";
+
+// ===================================================================
+// battle
+// ===================================================================
+message battle_up_msg {
+    optional uint32                 user_id     = 1;  //
+    optional battle_start           start       = 2;  // start of battle
+    optional battle_load            load        = 3;  // load data
+    optional battle_frame_group     frame       = 4;  // frame sync
+    optional battle_end             eob         = 5;  // end of battle
+}
+
+message battle_notify_msg {
+    optional battle_start_notify        sob         = 1;  // start of battle
+    optional battle_load_notify         load        = 2;  // load battle resource
+    optional battle_frame_notify        frame       = 3;  // battle frame sync
+    optional battle_end_notify          eob         = 4;  // end of battle
+}
+
+message battle_start {
+    optional uint32         user_id     = 1;
+    optional bool           confirm     = 2; // confirm to start battle
+}
+
+message battle_load {
+    optional uint32         user_id     = 1;
+    optional bool           is_finished = 2;
+    optional uint32         process     = 3;
+}
+
+message battle_frame_group {
+    optional uint32         user_id     = 1;
+    repeated battle_frame   frames      = 2;
+}
+
+message battle_frame {
+    
+}
+
+message battle_end {
+    optional uint32         user_id     = 1;
+    optional uint32         result      = 2;
+    optional battle_stat    stat        = 3;
+}
+
+message battle_start_notify {
+    optional uint32         battle_id           = 1; // battle id
+    optional uint32         battle_seed         = 2; // seed
+    repeated battle_team    teams               = 3; // teams
+}
+
+message battle_load_notify {
+    repeated battle_load    loads   = 1;
+}
+
+message battle_frame_notify {
+    optional uint32         sync_frame  = 1;
+    repeated battle_frame   frames      = 2;
+}
+
+message battle_end_notify {
+    optional uint32         result  = 1;
+    optional battle_stat    stat    = 2;
+}
+

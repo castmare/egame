@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ElfSelectSkin" width="101" height="500" xmlns:e="http://ns.egret.com/eui">
+    <e:Component id="elf_snap_1" width="98.79" height="141.2" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="ElfInfoSkin" left="0"/>
+	<e:Component id="elf_snap_2" width="98.79" height="141.2" y="167.99" anchorOffsetX="0" anchorOffsetY="0" skinName="ElfInfoSkin" left="0" currentState="UnSelected"/>
+	<e:Component id="elf_snap_3" width="98.79" height="141.2" y="341.28" anchorOffsetX="0" anchorOffsetY="0" skinName="ElfInfoSkin" left="0" currentState="UnSelected"/>
+</e:Skin>

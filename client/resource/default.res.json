@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,rocker_bg,rocker_ctrl",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,rocker_bg,rocker_ctrl,up_proto,down_proto,common_proto,elf_main_bg_png,elf_role_bg_png,button_up_png,button_down_png,FireElement_jpg,Golem_jpg,WaterElement_jpg,FireElement_png,Golem_png,WaterElement_png,hero_frame_png,skill_frame_png,cs79_png,cs80_png,s30_jpg,s32_jpg,s33_jpg,s152_jpg,s293_jpg,s832_jpg,s833_jpg,s920_jpg,s922_jpg,s923_jpg,s924_jpg,s925_jpg,earth_png,fire_png,edit_button_png,hero_frame_selected_png,hero_frame3_png,water_png,unit_json,portraitredmask_png,hero_frame_select_bg_png,WaterElement2_png,FireElement2_png,Golem2_png,skill_config_json,s300_jpg,s380_jpg,s525_jpg,s531_jpg,s534_jpg,s535_jpg,s536_jpg,s538_jpg,s830_jpg,s926_jpg,s5302_jpg,s5303_jpg,s10010_jpg,s10012_jpg,s10014_jpg,s10474_jpg,s10546_jpg",
 			"name": "preload"
 		}
 	],
@@ -97,16 +97,6 @@
 			"name": "on_png"
 		},
 		{
-			"url": "assets/Button/button_down.png",
-			"type": "image",
-			"name": "button_down_png"
-		},
-		{
-			"url": "assets/Button/button_up.png",
-			"type": "image",
-			"name": "button_up_png"
-		},
-		{
 			"url": "assets/ProgressBar/thumb_pb.png",
 			"type": "image",
 			"name": "thumb_pb_png"
@@ -120,11 +110,6 @@
 			"url": "assets/ScrollBar/track_sb.png",
 			"type": "image",
 			"name": "track_sb_png"
-		},
-		{
-			"url": "assets/bg.jpg",
-			"type": "image",
-			"name": "bg_jpg"
 		},
 		{
 			"url": "assets/egret_icon.png",
@@ -145,6 +130,302 @@
 			"url": "assets/Rocker/rocker_control.png",
 			"type": "image",
 			"name": "rocker_ctrl"
+		},
+		{
+			"url": "assets/csproto/common.proto",
+			"type": "text",
+			"name": "common_proto"
+		},
+		{
+			"url": "assets/csproto/down.proto",
+			"type": "text",
+			"name": "down_proto"
+		},
+		{
+			"url": "assets/csproto/up.proto",
+			"type": "text",
+			"name": "up_proto"
+		},
+		{
+			"url": "assets/elf_main_bg.png",
+			"type": "image",
+			"name": "elf_main_bg_png"
+		},
+		{
+			"url": "assets/elf_role_bg.png",
+			"type": "image",
+			"name": "elf_role_bg_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png",
+			"scale9grid": "20,20,80,34"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ElfIcon/FireElement.jpg",
+			"type": "image",
+			"name": "FireElement_jpg"
+		},
+		{
+			"url": "assets/ElfIcon/Golem.jpg",
+			"type": "image",
+			"name": "Golem_jpg"
+		},
+		{
+			"url": "assets/ElfIcon/WaterElement.jpg",
+			"type": "image",
+			"name": "WaterElement_jpg"
+		},
+		{
+			"url": "assets/ElfCard/FireElement.png",
+			"type": "image",
+			"name": "FireElement_png"
+		},
+		{
+			"url": "assets/ElfCard/Golem.png",
+			"type": "image",
+			"name": "Golem_png"
+		},
+		{
+			"url": "assets/ElfCard/WaterElement.png",
+			"type": "image",
+			"name": "WaterElement_png"
+		},
+		{
+			"url": "assets/ElfFrame/hero_frame.png",
+			"type": "image",
+			"name": "hero_frame_png"
+		},
+		{
+			"url": "assets/Skill/skill_frame.png",
+			"type": "image",
+			"name": "skill_frame_png"
+		},
+		{
+			"url": "assets/Skill/cs79.png",
+			"type": "image",
+			"name": "cs79_png"
+		},
+		{
+			"url": "assets/Skill/cs80.png",
+			"type": "image",
+			"name": "cs80_png"
+		},
+		{
+			"url": "assets/Skill/s30.jpg",
+			"type": "image",
+			"name": "s30_jpg"
+		},
+		{
+			"url": "assets/Skill/s32.jpg",
+			"type": "image",
+			"name": "s32_jpg"
+		},
+		{
+			"url": "assets/Skill/s33.jpg",
+			"type": "image",
+			"name": "s33_jpg"
+		},
+		{
+			"url": "assets/Skill/s152.jpg",
+			"type": "image",
+			"name": "s152_jpg"
+		},
+		{
+			"url": "assets/Skill/s293.jpg",
+			"type": "image",
+			"name": "s293_jpg"
+		},
+		{
+			"url": "assets/Skill/s832.jpg",
+			"type": "image",
+			"name": "s832_jpg"
+		},
+		{
+			"url": "assets/Skill/s833.jpg",
+			"type": "image",
+			"name": "s833_jpg"
+		},
+		{
+			"url": "assets/Skill/s920.jpg",
+			"type": "image",
+			"name": "s920_jpg"
+		},
+		{
+			"url": "assets/Skill/s922.jpg",
+			"type": "image",
+			"name": "s922_jpg"
+		},
+		{
+			"url": "assets/Skill/s923.jpg",
+			"type": "image",
+			"name": "s923_jpg"
+		},
+		{
+			"url": "assets/Skill/s924.jpg",
+			"type": "image",
+			"name": "s924_jpg"
+		},
+		{
+			"url": "assets/Skill/s925.jpg",
+			"type": "image",
+			"name": "s925_jpg"
+		},
+		{
+			"url": "assets/Element/earth.png",
+			"type": "image",
+			"name": "earth_png"
+		},
+		{
+			"url": "assets/Element/fire.png",
+			"type": "image",
+			"name": "fire_png"
+		},
+		{
+			"url": "assets/Button/edit_button.png",
+			"type": "image",
+			"name": "edit_button_png"
+		},
+		{
+			"url": "assets/ElfFrame/hero_frame_selected.png",
+			"type": "image",
+			"name": "hero_frame_selected_png"
+		},
+		{
+			"url": "assets/ElfFrame/hero_frame3.png",
+			"type": "image",
+			"name": "hero_frame3_png"
+		},
+		{
+			"url": "assets/Element/water.png",
+			"type": "image",
+			"name": "water_png"
+		},
+		{
+			"name": "unit_json",
+			"type": "json",
+			"url": "assets/ConfigData/unit.json"
+		},
+		{
+			"name": "portraitredmask_png",
+			"type": "image",
+			"url": "assets/ElfFrame/portraitredmask.png"
+		},
+		{
+			"name": "hero_frame_select_bg_png",
+			"type": "image",
+			"url": "assets/ElfFrame/hero_frame_select_bg.png"
+		},
+		{
+			"name": "WaterElement2_png",
+			"type": "image",
+			"url": "assets/ElfPortrait/WaterElement2.png"
+		},
+		{
+			"name": "FireElement2_png",
+			"type": "image",
+			"url": "assets/ElfPortrait/FireElement2.png"
+		},
+		{
+			"name": "Golem2_png",
+			"type": "image",
+			"url": "assets/ElfPortrait/Golem2.png"
+		},
+		{
+			"name": "skill_config_json",
+			"type": "json",
+			"url": "assets/ConfigData/skill_config.json"
+		},
+		{
+			"name": "s300_jpg",
+			"type": "image",
+			"url": "assets/Skill/s300.jpg"
+		},
+		{
+			"name": "s380_jpg",
+			"type": "image",
+			"url": "assets/Skill/s380.jpg"
+		},
+		{
+			"name": "s525_jpg",
+			"type": "image",
+			"url": "assets/Skill/s525.jpg"
+		},
+		{
+			"name": "s531_jpg",
+			"type": "image",
+			"url": "assets/Skill/s531.jpg"
+		},
+		{
+			"name": "s534_jpg",
+			"type": "image",
+			"url": "assets/Skill/s534.jpg"
+		},
+		{
+			"name": "s535_jpg",
+			"type": "image",
+			"url": "assets/Skill/s535.jpg"
+		},
+		{
+			"name": "s536_jpg",
+			"type": "image",
+			"url": "assets/Skill/s536.jpg"
+		},
+		{
+			"name": "s538_jpg",
+			"type": "image",
+			"url": "assets/Skill/s538.jpg"
+		},
+		{
+			"name": "s830_jpg",
+			"type": "image",
+			"url": "assets/Skill/s830.jpg"
+		},
+		{
+			"name": "s926_jpg",
+			"type": "image",
+			"url": "assets/Skill/s926.jpg"
+		},
+		{
+			"name": "s5302_jpg",
+			"type": "image",
+			"url": "assets/Skill/s5302.jpg"
+		},
+		{
+			"name": "s5303_jpg",
+			"type": "image",
+			"url": "assets/Skill/s5303.jpg"
+		},
+		{
+			"name": "s10010_jpg",
+			"type": "image",
+			"url": "assets/Skill/s10010.jpg"
+		},
+		{
+			"name": "s10012_jpg",
+			"type": "image",
+			"url": "assets/Skill/s10012.jpg"
+		},
+		{
+			"name": "s10014_jpg",
+			"type": "image",
+			"url": "assets/Skill/s10014.jpg"
+		},
+		{
+			"name": "s10474_jpg",
+			"type": "image",
+			"url": "assets/Skill/s10474.jpg"
+		},
+		{
+			"name": "s10546_jpg",
+			"type": "image",
+			"url": "assets/Skill/s10546.jpg"
 		}
 	]
 }

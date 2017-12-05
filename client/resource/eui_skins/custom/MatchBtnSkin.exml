@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchBtnSkin" width="212" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" states="match,matching" >
+	<w:Declarations>
+		<tween:TweenGroup id="matching">
+			<tween:TweenItem target="{image}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{172}" y="{76}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{20}" y="{76}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Button id="btn_match" label="开始匹配" x="0" y="0" anchorOffsetX="0" width="212" anchorOffsetY="0" height="112" skinName.match="skins.ButtonSkin" label.matching="匹配中..." touchEnabled.matching="false" currentState.matching="down">
+	</e:Button>
+	<e:Image id="image" width="21" height="21" includeIn="matching" x="20" y="76" source="fire_png" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+</e:Skin>

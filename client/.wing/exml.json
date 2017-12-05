@@ -1,0 +1,69 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": true,
+    "globalBindingDataTestObj": [
+      {
+        "key": "data.level",
+        "value": "99"
+      },
+      {
+        "key": "data.name",
+        "value": "火精灵"
+      },
+      {
+        "key": "data.icon",
+        "value": "FireElement_jpg"
+      },
+      {
+        "key": "data.skill_desc",
+        "value": "魔法描述，魔法描述魔法水泥大叔大婶多撒多啊"
+      },
+      {
+        "key": "data.skill_name",
+        "value": "天火"
+      },
+      {
+        "key": "data.skill_rank",
+        "value": "2"
+      },
+      {
+        "key": "data.skill_icon",
+        "value": "s33_jpg"
+      },
+      {
+        "key": "data.elem",
+        "value": "fire_png"
+      },
+      {
+        "key": "data.elf_card",
+        "value": "FireElement_png"
+      }
+    ]
+  },
+  "1601d34b88a": {
+    "bindingDataTestObj": [
+      {
+        "key": "data.name",
+        "value": "火元素"
+      }
+    ]
+  },
+  "1601d3b4d8f": {
+    "bindingDataTestObj": []
+  },
+  "16021f70b99": {
+    "bindingDataTestObj": []
+  },
+  "160220e95ba": {
+    "bindingDataTestObj": []
+  },
+  "16022112d59": {
+    "bindingDataTestObj": []
+  },
+  "1602212ee60": {
+    "bindingDataTestObj": []
+  },
+  "160225964b7": {
+    "bindingDataTestObj": []
+  }
+}

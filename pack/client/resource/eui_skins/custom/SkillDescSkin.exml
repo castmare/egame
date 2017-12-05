@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillDescSkin" width="382" height="167" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label_desc" text="魔法描述，技能描述魔法描述，技能描述魔法描述，技能描述魔法描述，技能描述3" x="0" y="0" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="104" size="20" top="40" left="0" bottom="0"/>
+	<e:Label id="label_name" text="魔法名称" x="0" y="0" anchorOffsetX="0" width="135" anchorOffsetY="0" height="34" top="10" left="1" size="24"/>
+	<e:Label id="label_rank" text="2阶" x="0" y="0" anchorOffsetX="0" width="55" anchorOffsetY="0" height="34" right="10" top="10" textAlign="right" size="24"/>
+</e:Skin>

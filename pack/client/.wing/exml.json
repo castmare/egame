@@ -1,0 +1,22 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalBindingDataTestObj": [
+      {
+        "key": "data.level",
+        "value": "99"
+      }
+    ]
+  },
+  "1601d34b88a": {
+    "bindingDataTestObj": [
+      {
+        "key": "data.name",
+        "value": "火元素"
+      }
+    ]
+  },
+  "1601d3b4d8f": {
+    "bindingDataTestObj": []
+  }
+}

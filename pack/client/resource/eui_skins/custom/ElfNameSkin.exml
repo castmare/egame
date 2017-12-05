@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ElfNameSkin" width="163" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1601d34b88a"/>
+	<e:Label id="label_name" x="3.5" y="24" anchorOffsetX="0" width="154" anchorOffsetY="0" height="31" verticalCenter="0" left="2" text="{data.name}"/>
+	<e:Button id="btn_edit" label="" x="249" y="5" anchorOffsetX="0" width="30" anchorOffsetY="0" height="52" skinName="EditButtonSkin" verticalCenter="0" right="2"/>
+</e:Skin>

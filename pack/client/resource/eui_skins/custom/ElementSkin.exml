@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ElementSkin" width="57" height="57" currentState="fire" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="fire,water,earth" >
+	<e:Image id="element" width="100%" height="100%" x="0" y="0" source="fire_png" fillMode="scale" source.earth="earth_png" source.water="water_png"/>
+</e:Skin>

@@ -105,10 +105,6 @@ class Main extends eui.UILayer {
         }
     }
     private createScene() {
-        let rocker = new Rocker();
-        this.addChild(rocker);
-        rocker.x = 0;
-        rocker.y = this.stage.stageHeight - rocker.height;
         if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
             this.startCreateScene();
         }
@@ -141,19 +137,86 @@ class Main extends eui.UILayer {
         }
     }
 
+    private getDeviceSerial(){
+        let deviceSerial = window.localStorage.getItem("device_serial");
+        if( deviceSerial == null){
+            deviceSerial = "" + Math.round(Math.random() * 100000);
+            window.localStorage.setItem("device_serial", deviceSerial);
+        }
+        return deviceSerial;
+    }
 
     /**
      * 创建场景界面
      * Create scene interface
      */
     protected startCreateScene(): void {
+        // let protoFile = RES.getRes("up_proto");
+        // let proto = protobuf.parse(protoFile, {keepCase:true});
+        // let UpMsg = proto.root.lookupType("up_msg");
+        // let message = UpMsg.create({ _sequence: 1, _repeat :false, _user_id: 1001  });
+        // let encodedData = UpMsg.encode(message).finish();
+        // let decodedData = UpMsg.decode(encodedData);
+        // console.log("message", message, encodedData, decodedData);
+
+        // let protoFile2 = RES.getRes("common_proto");
+        // let proto2 = protobuf.parse(protoFile2, {keepCase:true});
+        // let Role = proto2.root.lookupType("role_st");
+        // let message2 = Role.create({ _role_id: 101, _elf_id :2, _name: "NickName", _level:0 });
+        // let encodedData2 = Role.encode(message2).finish();
+        // let decodedData2 = Role.decode(encodedData2);
+        // console.log("message2", message2, encodedData2, decodedData2);
+
+
+        // let protoFile3 = RES.getRes("down_proto");
+        // let proto3 = protobuf.parse(protoFile3 + protoFile2, {keepCase:true});
+        // let Role2 = proto3.root.lookupType("role_st");
+        // let DownMsg = proto3.root.lookupType("down_msg");
+        // let message3 = DownMsg.create( {login:{result:3, user_id:3}});
+        // let encodedData3 = DownMsg.encode(message3).finish();
+        // let decodedData3 = DownMsg.decode(encodedData3);
+        // console.log("message3", message3, encodedData3, decodedData3);
+
+        // let net = new Network()
+        // net.Connect("192.168.5.7", 13001),
+        DS = new DataCenter();
+        let device = this.getDeviceSerial();
+        console.log("device", device);
+        let device_id = "1#2-" + device;
+        DS.set(DataKey.DEVICE_ID, device_id);
+        DS.set(DataKey.DEVICE, device);
+        RPC.Init();
+        //RPC.Call("login", {device_id: "lifan-host", version : "1.0.0"}, (reply) =>{ console.log("reply", reply); });
         //启用场景控制器
-        var viewManager: ViewManager = new ViewManager();
-        this.addChild(viewManager);
-        let rocker = new Rocker();
-        this.addChild(rocker);
-        viewManager.start();
-        
-        //开启自定义event
+        // var viewManager: ViewManager = new ViewManager();
+        // this.addChild(viewManager);
+        // viewManager.start();
+        unitCfg = new Config("unit_json");
+        skillCfg = new Config("skill_config_json");
+        let conf = unitCfg.getByField("id", 1001 + "");
+        let view = new GameView();
+        this.addChild(view);
+        view.start();
+        // //开启自定义event
+        // let msgPipe = new MsgPipe();
+        // msgPipe.bind("192.168.5.7", 13002);
+        // msgPipe.loop((msg)=>{
+        //     console.log("get msg", msg);
+        // });
+        // let register = RPC.CreateUpProroData("rtnotify", {register: {user_id: 1}});
+        // msgPipe.push(register);
+        // let timer = new egret.Timer(1000, 5);
+        // timer.addEventListener(egret.TimerEvent.TIMER, ()=>{
+        //     let keepalive = RPC.CreateUpProroData("rtnotify", {keepalive: {time:new Date().getUTCSeconds()}});
+        //     msgPipe.push(keepalive);
+        // }, this);
+        // timer.start();
+        // let rand1 = new Random(1010);
+        // let rand2 = new Random(1010);
+        // for(let i = 0; i < 10; i++){
+        //     console.log("rand1", rand1.rand());
+        //     console.log("rand2", rand2.rand());
+        // }
+
     }
 }

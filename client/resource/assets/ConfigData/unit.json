@@ -1,0 +1,50 @@
+{
+    "fire": [
+        {
+            "id": "1001",
+            "name": "火精灵",
+            "hp": "20",
+            "speed": "0.2",
+            "type": "fire",
+            "radius": "30",
+            "scale": "1.0",
+            "data": "FireElement_json",
+            "texture": "FireElement_png",
+			"icon": "FireElement_jpg",
+			"portrait": "FireElement2_png",
+            "skill_list":[ 1, 2, 3, 4, 5] 
+        }
+    ],
+    "water": [
+        {
+            "id": "1002",
+            "name": "水精灵",
+            "hp": "20",
+            "speed": "0.3",
+            "type": "water",
+            "radius": "40",
+            "scale": "1.0",
+            "data": "WaterElement_json",
+            "texture": "WaterElement_png",
+			"icon": "WaterElement_jpg",
+			"portrait": "WaterElement2_png",
+            "skill_list":[ 6, 7, 8, 9, 10] 
+        }
+    ],
+    "soil": [
+        {
+            "id": "1003",
+            "name": "土精灵",
+            "hp": "20",
+            "speed": "0.2",
+            "type": "soil",
+            "radius": "40",
+            "scale": "1.0",
+            "data": "EarthElement_json",
+            "texture": "EarthElement_png",
+			"icon": "Golem_jpg",
+			"portrait": "Golem2_png",
+            "skill_list":[ 11, 12, 13, 14, 15] 
+        }
+    ]
+}

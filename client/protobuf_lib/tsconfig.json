@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"allowJs": true,
+		"outFile": "bin/protobuf_lib.js"
+	},
+	"include":[
+		"src/protobuf.js"
+	]
+}

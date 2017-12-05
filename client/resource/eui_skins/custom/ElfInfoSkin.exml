@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ElfInfoSkin" width="105" height="149" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="selected,unselect" >
+	<w:Config id="16021f70b99"/>
+	<e:Image id="elf_avatar" width="101" height="101" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,3,99,99" source="{data.icon}"/>
+	<e:Label id="label_name" text="{data.name}" x="0" y="101" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="39" horizontalCenter="-1" verticalAlign="middle" textAlign="center" size="22"/>
+	<e:Image id="elf_frame" width="106" height="102" x="0" y="0" source="hero_frame_png" fillMode="scale" alpha.selected="1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="select_bg" width="145" height="126" x="-21" y="-14" anchorOffsetY="0" source="hero_frame_select_bg_png" includeIn="selected" fillMode="scale" anchorOffsetX="0"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillInfoSkin" width="124" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component id="skill_icon" width="95" height="95" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" skinName="SkillIconSkin"/>
+	<e:Component id="element_1" width="20" height="20" y="7" skinName="ElementSkin" horizontalCenter="45" right="20"/>
+	<e:Component id="element_2" width="20" height="20" y="36.5" skinName="ElementSkin" right="20" horizontalCenter="45"/>
+	<e:Component id="element_3" width="20" height="20" y="67.5" skinName="ElementSkin" horizontalCenter="45" right="20"/>
+</e:Skin>

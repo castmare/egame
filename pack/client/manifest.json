@@ -1,0 +1,38 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"promise/bin/promise.js",
+		"protobuf_lib/bin/protobuf_lib.js"
+	],
+	"game": [
+		"bin-debug/Items/Rocker.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/MsgPipe.js",
+		"bin-debug/Network.js",
+		"bin-debug/Queue.js",
+		"bin-debug/Random.js",
+		"bin-debug/RoleWheel.js",
+		"bin-debug/RPC.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/DataCenter.js",
+		"bin-debug/Scenes/CreateRoleScene.js",
+		"bin-debug/Scenes/LoginScene.js",
+		"bin-debug/Scenes/MainScene.js",
+		"bin-debug/UI/CreateRoleUI.js",
+		"bin-debug/UI/ElfSelectUI.js",
+		"bin-debug/UI/MainSceneUI.js",
+		"bin-debug/Views/GameEndPanel.js",
+		"bin-debug/Views/GamePlayingPanel.js",
+		"bin-debug/Views/GameStartPanel.js",
+		"bin-debug/Views/GameView.js",
+		"bin-debug/Views/ViewManager.js"
+	]
+}

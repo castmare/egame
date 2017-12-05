@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateRoleSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Label text="创建角色" x="147" y="31" horizontalCenter="0" top="30" size="42"/>
+	<e:Button id="btn_fire" label="火元素" left="80" top="130" name="elf_fire"/>
+	<e:Button id="btn_water" label="水元素" left="80" verticalCenter="20" name="elf_water"/>
+	<e:Button id="btn_earth" label="土元素" left="80" bottom="100" name="elf_earth"/>
+	<e:Button id="btn_create" label="创建角色" right="80" bottom="100"/>
+</e:Skin>

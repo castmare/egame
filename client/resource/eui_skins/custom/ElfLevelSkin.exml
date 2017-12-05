@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ElfLevelSkin" width="107" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lb" text="等级" x="85" y="113" verticalCenter="0" left="2"/>
+	<e:Label id="level" text="{data.level}" x="67" y="114" verticalCenter="0.5"/>
+</e:Skin>

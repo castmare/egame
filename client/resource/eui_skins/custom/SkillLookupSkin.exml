@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillLookupSkin" width="490" height="360" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller id="scroll" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="skill_group" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%">
+			<ns1:SkillDetailUI id="skill_desc_1" width="488" height="110" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:SkillDetailUI id="skill_desc_2" width="488" height="110" x="0" y="112" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:SkillDetailUI id="skill_desc_3" width="488" height="110" x="0" y="224" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:SkillDetailUI id="skill_desc_4" width="488" height="110" x="0" y="336" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:SkillDetailUI id="skill_desc_5" width="488" height="110" x="0" y="448" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

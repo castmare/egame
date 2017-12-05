@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillDescSkin" width="382" height="167" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="160220e95ba"/>
+	<e:Label id="label_desc" text="{data.skill_desc}" x="0" y="0" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="104" size="20" top="40" left="0" bottom="0"/>
+	<e:Label id="label_name" text="{data.skill_name}" x="0" y="0" anchorOffsetX="0" width="135" anchorOffsetY="0" height="34" top="10" left="1" size="24"/>
+	<e:Label id="label_rank" text="{data.skill_rank}" x="0" y="0" anchorOffsetX="0" width="20" anchorOffsetY="0" height="34" right="48" top="10" textAlign="right" size="24"/>
+	<e:Label id="label_rank_desc" text="阶" x="10" y="10" anchorOffsetX="0" width="30" anchorOffsetY="0" height="34" right="10" top="10" textAlign="right" size="24"/>
+</e:Skin>

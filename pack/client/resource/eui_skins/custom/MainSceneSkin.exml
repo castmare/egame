@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1601d3b4d8f"/>
+	<e:Button id="btn_match" label="开始匹配" x="893.41" y="507.67" anchorOffsetX="1.58" width="212.42" anchorOffsetY="0.23" height="112.89" skinName="skins.ButtonSkin" right="20" bottom="20"/>
+	<e:Component id="efl_card" width="372.73" height="409.09" x="134.6" y="47.76" skinName="ElfCardSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component id="elf_skills" width="495.75" height="356.36" x="619.24" y="103.97" skinName="SkillLookupSkin" anchorOffsetX="0" anchorOffsetY="0" right="20"/>
+	<e:Component id="elf_level" width="104.86" height="48" x="160.99" y="483" anchorOffsetX="0" anchorOffsetY="0" skinName="ElfLevelSkin"/>
+	<e:Component id="elf_name" width="225.79" height="48" x="274.87" y="483" skinName="ElfNameSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:ElfSelectUI id="elf_select" x="2865.79" y="47947"  anchorOffsetX="2850" anchorOffsetY="47841" width="95" height="431"/>
+</e:Skin>

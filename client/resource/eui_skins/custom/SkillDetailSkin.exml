@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillDetailSkin" width="488" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="skill_bg" width="486" height="106" x="2" y="3" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.8" fillColor="0x080611" ellipseWidth="50"/>
+	<e:Component id="skill_info" width="121" height="97" x="5" y="7.5" anchorOffsetX="0" anchorOffsetY="0" skinName="SkillInfoSkin"/>
+	<e:Component id="skill_desc" width="352" height="108" x="132" y="3.5" anchorOffsetX="0" anchorOffsetY="0" skinName="SkillDescSkin"/>
+</e:Skin>

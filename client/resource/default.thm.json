@@ -30,6 +30,22 @@
     "resource/eui_skins/TextInputSkin.exml",
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
-    "resource/eui_skins/VSliderSkin.exml"
+    "resource/eui_skins/VSliderSkin.exml",
+    "resource/eui_skins/custom/CreateRoleSkin.exml",
+    "resource/eui_skins/custom/EditButtonSkin.exml",
+    "resource/eui_skins/custom/ElementSkin.exml",
+    "resource/eui_skins/custom/ElfCardSkin.exml",
+    "resource/eui_skins/custom/ElfDetailSkin.exml",
+    "resource/eui_skins/custom/ElfInfoSkin.exml",
+    "resource/eui_skins/custom/ElfLevelSkin.exml",
+    "resource/eui_skins/custom/ElfNameSkin.exml",
+    "resource/eui_skins/custom/ElfSelectSkin.exml",
+    "resource/eui_skins/custom/MainSceneSkin.exml",
+    "resource/eui_skins/custom/MatchBtnSkin.exml",
+    "resource/eui_skins/custom/SkillDescSkin.exml",
+    "resource/eui_skins/custom/SkillIconSkin.exml",
+    "resource/eui_skins/custom/SkillInfoSkin.exml",
+    "resource/eui_skins/custom/SkillDetailSkin.exml",
+    "resource/eui_skins/custom/SkillLookupSkin.exml"
   ]
 }

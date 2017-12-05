@@ -1,0 +1,5 @@
+{
+	"name": "protobuf_lib",
+	"version": "6.8.0",
+	"typings": "typings/protobuf_lib.d.ts"
+}
